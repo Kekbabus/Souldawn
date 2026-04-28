@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "passive",
+    "armor":  5,
+    "base_health":  25.0,
+    "defense":  5,
+    "definition_id":  "flamingo",
+    "detection_range":  0,
+    "display_name":  "Flamingo",
+    "experience_reward":  0.0,
+    "loot_table":  "flamingo_loot",
+    "run_on_health":  25,
+    "speed":  210.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/flamingo/flamingo_east_idle.png",
+                                 "north":  "res://assets/creatures/flamingo/flamingo_north_idle.png",
+                                 "south":  "res://assets/creatures/flamingo/flamingo_south_idle.png",
+                                 "west":  "res://assets/creatures/flamingo/flamingo_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/flamingo/flamingo_east_walk1.png",
+                                              "res://assets/creatures/flamingo/flamingo_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/flamingo/flamingo_north_walk1.png",
+                                               "res://assets/creatures/flamingo/flamingo_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/flamingo/flamingo_south_walk1.png",
+                                               "res://assets/creatures/flamingo/flamingo_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/flamingo/flamingo_west_walk1.png",
+                                              "res://assets/creatures/flamingo/flamingo_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  10,
+    "melee_attack":  3,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/flamingo/flamingo_corpse_fresh.png",
+                           "res://Assets/creatures/flamingo/flamingo_corpse_decayed.png",
+                           "res://Assets/creatures/flamingo/flamingo_corpse_skeleton.png"
+                       ]
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "chicken_loot",
+  "entries": [
+    {
+      "item_definition_id": "meat",
+      "chance": 2.12,
+      "min_quantity": 1,
+      "max_quantity": 2
+    }
+  ]
+}

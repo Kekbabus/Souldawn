@@ -1,0 +1,78 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  0,
+                          "max_damage":  120,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "manadrain_ranged",
+                          "min_damage":  2,
+                          "max_damage":  170,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "ranged",
+    "armor":  15,
+    "base_health":  390.0,
+    "defense":  15,
+    "definition_id":  "priestess",
+    "detection_range":  8,
+    "display_name":  "Priestess",
+    "experience_reward":  420.0,
+    "immunities":  {
+                       "invisible":  true
+                   },
+    "loot_table":  "priestess_loot",
+    "self_healing":  {
+                         "min":  50,
+                         "max":  80,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/priestess/priestess_east_idle.png",
+                                 "north":  "res://assets/creatures/priestess/priestess_north_idle.png",
+                                 "south":  "res://assets/creatures/priestess/priestess_south_idle.png",
+                                 "west":  "res://assets/creatures/priestess/priestess_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/priestess/priestess_east_walk1.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/priestess/priestess_north_walk1.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/priestess/priestess_south_walk1.png",
+                                               "res://assets/creatures/priestess/priestess_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/priestess/priestess_west_walk1.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "Ghoul",
+                        "interval_ms":  2000,
+                        "chance":  10
+                    }
+                ],
+    "creature_type":  "blood",
+    "melee_skill":  37,
+    "melee_attack":  25,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/priestess/priestess_corpse_fresh.png",
+                           "res://Assets/creatures/priestess/priestess_corpse_decayed.png",
+                           "res://Assets/creatures/priestess/priestess_corpse_skeleton.png"
+                       ]
+}

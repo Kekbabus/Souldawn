@@ -1,0 +1,61 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "poison_strike",
+                          "min_damage":  20,
+                          "max_damage":  40,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  1
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  5,
+    "base_health":  65.0,
+    "defense":  5,
+    "definition_id":  "cobra",
+    "detection_range":  8,
+    "display_name":  "Cobra",
+    "experience_reward":  30.0,
+    "immunities":  {
+                       "drunk":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "cobra_loot",
+    "speed":  170.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/cobra/cobra_east_idle.png",
+                                 "north":  "res://assets/creatures/cobra/cobra_north_idle.png",
+                                 "south":  "res://assets/creatures/cobra/cobra_south_idle.png",
+                                 "west":  "res://assets/creatures/cobra/cobra_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/cobra/cobra_east_walk1.png",
+                                              "res://assets/creatures/cobra/cobra_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/cobra/cobra_north_walk1.png",
+                                               "res://assets/creatures/cobra/cobra_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/cobra/cobra_south_walk1.png",
+                                               "res://assets/creatures/cobra/cobra_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/cobra/cobra_west_walk1.png",
+                                              "res://assets/creatures/cobra/cobra_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "poison",
+    "melee_skill":  100,
+    "melee_attack":  60,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/cobra/cobra_corpse_fresh.png",
+                           "res://Assets/creatures/cobra/cobra_corpse_decayed.png",
+                           "res://Assets/creatures/cobra/cobra_corpse_skeleton.png"
+                       ]
+}

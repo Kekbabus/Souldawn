@@ -1,0 +1,14 @@
+{
+  "name": "Conjure Explosive Arrow",
+  "words": "exevo con flam",
+  "mana_cost": 290,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "explosive_arrow",
+  "conjure_count": 16,
+  "reagent_id": "",
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 25
+}

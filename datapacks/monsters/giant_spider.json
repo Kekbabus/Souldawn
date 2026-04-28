@@ -1,0 +1,70 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "earth_area",
+                          "min_damage":  40,
+                          "max_damage":  70,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  25,
+    "base_health":  1300.0,
+    "defense":  25,
+    "definition_id":  "giant_spider",
+    "detection_range":  8,
+    "display_name":  "Giant Spider",
+    "experience_reward":  900.0,
+    "immunities":  {
+                       "outfit":  true,
+                       "drunk":  true,
+                       "invisible":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "giant_spider_loot",
+    "speed":  230.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/giant_spider/giant_spider_east_idle.png",
+                                 "north":  "res://assets/creatures/giant_spider/giant_spider_north_idle.png",
+                                 "south":  "res://assets/creatures/giant_spider/giant_spider_south_idle.png",
+                                 "west":  "res://assets/creatures/giant_spider/giant_spider_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/giant_spider/giant_spider_east_walk1.png",
+                                              "res://assets/creatures/giant_spider/giant_spider_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/giant_spider/giant_spider_north_walk1.png",
+                                               "res://assets/creatures/giant_spider/giant_spider_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/giant_spider/giant_spider_south_walk1.png",
+                                               "res://assets/creatures/giant_spider/giant_spider_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/giant_spider/giant_spider_west_walk1.png",
+                                              "res://assets/creatures/giant_spider/giant_spider_west_walk2.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "Poison Spider",
+                        "interval_ms":  2000,
+                        "chance":  10
+                    }
+                ],
+    "creature_type":  "poison",
+    "melee_skill":  150,
+    "melee_attack":  100,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/giant_spider/giant_spider_corpse_fresh.png",
+                           "res://Assets/creatures/giant_spider/giant_spider_corpse_decayed.png",
+                           "res://Assets/creatures/giant_spider/giant_spider_corpse_skeleton.png"
+                       ]
+}

@@ -1,0 +1,55 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  10,
+    "base_health":  225.0,
+    "defense":  10,
+    "definition_id":  "tarantula",
+    "detection_range":  8,
+    "display_name":  "Tarantula",
+    "experience_reward":  120.0,
+    "immunities":  {
+                       "earth":  true,
+                       "outfit":  true,
+                       "drunk":  true
+                   },
+    "loot_table":  "tarantula_loot",
+    "speed":  210.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/tarantula/tarantula_east_idle.png",
+                                 "north":  "res://assets/creatures/tarantula/tarantula_north_idle.png",
+                                 "south":  "res://assets/creatures/tarantula/tarantula_south_idle.png",
+                                 "west":  "res://assets/creatures/tarantula/tarantula_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/tarantula/tarantula_east_walk1.png",
+                                              "res://assets/creatures/tarantula/tarantula_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/tarantula/tarantula_north_walk1.png",
+                                               "res://assets/creatures/tarantula/tarantula_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/tarantula/tarantula_south_walk1.png",
+                                               "res://assets/creatures/tarantula/tarantula_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/tarantula/tarantula_west_walk1.png",
+                                              "res://assets/creatures/tarantula/tarantula_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "poison",
+    "melee_skill":  30,
+    "melee_attack":  45,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/tarantula/tarantula_corpse_fresh.png",
+                           "res://Assets/creatures/tarantula/tarantula_corpse_decayed.png",
+                           "res://Assets/creatures/tarantula/tarantula_corpse_skeleton.png"
+                       ]
+}

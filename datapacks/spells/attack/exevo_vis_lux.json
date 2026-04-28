@@ -1,0 +1,22 @@
+{
+  "name": "Exevo Vis Lux",
+  "words": "exevo vis lux",
+  "mana_cost": 40,
+  "cooldown": 2.0,
+  "type": "wave",
+  "damage_min": 25,
+  "damage_max": 65,
+  "area_pattern": "AREA_BEAM4",
+  "damage_element": "energy",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 12,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 2.0,
+  "formula_ml_max": 3.6,
+  "formula_base_min": 12,
+  "formula_base_max": 24,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "energy_effect"
+}

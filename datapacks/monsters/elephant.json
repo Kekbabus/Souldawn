@@ -1,0 +1,50 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  25,
+    "base_health":  320.0,
+    "defense":  25,
+    "definition_id":  "elephant",
+    "detection_range":  8,
+    "display_name":  "Elephant",
+    "experience_reward":  160.0,
+    "loot_table":  "elephant_loot",
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/elephant/elephant_east_idle.png",
+                                 "north":  "res://assets/creatures/elephant/elephant_north_idle.png",
+                                 "south":  "res://assets/creatures/elephant/elephant_south_idle.png",
+                                 "west":  "res://assets/creatures/elephant/elephant_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/elephant/elephant_east_walk1.png",
+                                              "res://assets/creatures/elephant/elephant_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/elephant/elephant_north_walk1.png",
+                                               "res://assets/creatures/elephant/elephant_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/elephant/elephant_south_walk1.png",
+                                               "res://assets/creatures/elephant/elephant_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/elephant/elephant_west_walk1.png",
+                                              "res://assets/creatures/elephant/elephant_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  50,
+    "melee_attack":  25,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/elephant/elephant_corpse_fresh.png",
+                           "res://Assets/creatures/elephant/elephant_corpse_decayed.png",
+                           "res://Assets/creatures/elephant/elephant_corpse_skeleton.png"
+                       ]
+}

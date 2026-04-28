@@ -1,0 +1,54 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  10,
+    "base_health":  55.0,
+    "defense":  10,
+    "definition_id":  "crab",
+    "detection_range":  8,
+    "display_name":  "Crab",
+    "experience_reward":  30.0,
+    "immunities":  {
+                       "earth":  true,
+                       "drown":  true
+                   },
+    "loot_table":  "crab_loot",
+    "speed":  140.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/crab/crab_east_idle.png",
+                                 "north":  "res://assets/creatures/crab/crab_north_idle.png",
+                                 "south":  "res://assets/creatures/crab/crab_south_idle.png",
+                                 "west":  "res://assets/creatures/crab/crab_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/crab/crab_east_walk1.png",
+                                              "res://assets/creatures/crab/crab_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/crab/crab_north_walk1.png",
+                                               "res://assets/creatures/crab/crab_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/crab/crab_south_walk1.png",
+                                               "res://assets/creatures/crab/crab_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/crab/crab_west_walk1.png",
+                                              "res://assets/creatures/crab/crab_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  10,
+    "melee_attack":  20,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/crab/crab_corpse_fresh.png",
+                           "res://Assets/creatures/crab/crab_corpse_decayed.png",
+                           "res://Assets/creatures/crab/crab_corpse_skeleton.png"
+                       ]
+}

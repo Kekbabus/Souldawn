@@ -1,0 +1,14 @@
+{
+  "name": "Conjure Power Bolt",
+  "words": "exevo con vis",
+  "mana_cost": 700,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "power_bolt",
+  "conjure_count": 20,
+  "reagent_id": "",
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 59
+}

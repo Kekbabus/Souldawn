@@ -1,0 +1,210 @@
+[gd_scene format=3]
+
+[node name="SkillsPanel" type="PanelContainer"]
+visible = false
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 1
+
+[node name="Title" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Skills"
+horizontal_alignment = 1
+
+[node name="FistRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/FistRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Fist"
+
+[node name="Value" type="Label" parent="VBox/FistRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/FistRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/FistRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)
+
+[node name="ClubRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/ClubRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Club"
+
+[node name="Value" type="Label" parent="VBox/ClubRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/ClubRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/ClubRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)
+
+[node name="SwordRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/SwordRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Sword"
+
+[node name="Value" type="Label" parent="VBox/SwordRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/SwordRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/SwordRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)
+
+[node name="AxeRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/AxeRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Axe"
+
+[node name="Value" type="Label" parent="VBox/AxeRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/AxeRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/AxeRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)
+
+[node name="DistRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/DistRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Dist"
+
+[node name="Value" type="Label" parent="VBox/DistRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/DistRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/DistRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)
+
+[node name="ShieldRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/ShieldRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Shield"
+
+[node name="Value" type="Label" parent="VBox/ShieldRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/ShieldRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/ShieldRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)
+
+[node name="MagicRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Name" type="Label" parent="VBox/MagicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(38, 0)
+theme_override_font_sizes/font_size = 8
+text = "Magic"
+
+[node name="Value" type="Label" parent="VBox/MagicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 0)
+theme_override_font_sizes/font_size = 8
+text = "10"
+
+[node name="BarBG" type="ColorRect" parent="VBox/MagicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 6)
+size_flags_vertical = 4
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="VBox/MagicRow/BarBG"]
+layout_mode = 0
+offset_right = 0.0
+offset_bottom = 6.0
+color = Color(0.2, 0.6, 1.0, 1)

@@ -1,0 +1,15 @@
+{
+  "name": "Energy Wall",
+  "words": "adevo mas grav vis",
+  "mana_cost": 1000,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "energy_wall_rune",
+  "conjure_count": 8,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 41
+}

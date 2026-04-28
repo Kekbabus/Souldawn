@@ -1,0 +1,22 @@
+{
+  "name": "Exevo Tera Hur",
+  "words": "exevo tera hur",
+  "mana_cost": 110,
+  "cooldown": 4.0,
+  "type": "wave",
+  "damage_min": 40,
+  "damage_max": 120,
+  "area_pattern": "AREA_SQUAREWAVE5",
+  "damage_element": "earth",
+  "vocations": [
+    "druid"
+  ],
+  "min_level": 20,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 2.0,
+  "formula_ml_max": 3.6,
+  "formula_base_min": 12,
+  "formula_base_max": 24,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "energy_effect"
+}

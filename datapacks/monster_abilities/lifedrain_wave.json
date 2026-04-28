@@ -1,0 +1,7 @@
+{
+  "ability_id": "lifedrain_wave",
+  "ability_type": "lifedrain",
+  "area_effect": "death_effect",
+  "area_pattern": "AREA_WAVE4",
+  "target": false
+}

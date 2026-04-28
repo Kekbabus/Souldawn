@@ -1,0 +1,63 @@
+{
+  "abilities": [
+    {
+      "id": "energy_ranged",
+      "min_damage": 0,
+      "max_damage": 58,
+      "chance_percent": 15,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    },
+    {
+      "id": "fire_ranged",
+      "min_damage": 0,
+      "max_damage": 105,
+      "chance_percent": 15,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "ranged",
+  "armor": 15,
+  "base_health": 155.0,
+  "defense": 15,
+  "definition_id": "minotaur_mage",
+  "detection_range": 8,
+  "display_name": "Minotaur Mage",
+  "experience_reward": 150.0,
+  "immunities": {
+    "invisible": true
+  },
+  "loot_table": "minotaur_mage_loot",
+  "speed": 170.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/minotaur_mage/minotaur_mage_east_idle.png",
+      "north": "res://assets/creatures/minotaur_mage/minotaur_mage_north_idle.png",
+      "south": "res://assets/creatures/minotaur_mage/minotaur_mage_south_idle.png",
+      "west": "res://assets/creatures/minotaur_mage/minotaur_mage_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/minotaur_mage/minotaur_mage_east_walk1.png",
+        "res://assets/creatures/minotaur_mage/minotaur_mage_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/minotaur_mage/minotaur_mage_north_walk1.png",
+        "res://assets/creatures/minotaur_mage/minotaur_mage_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/minotaur_mage/minotaur_mage_south_walk1.png",
+        "res://assets/creatures/minotaur_mage/minotaur_mage_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/minotaur_mage/minotaur_mage_west_walk1.png",
+        "res://assets/creatures/minotaur_mage/minotaur_mage_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 10,
+  "melee_attack": 14,
+  "melee_interval": 2000
+}

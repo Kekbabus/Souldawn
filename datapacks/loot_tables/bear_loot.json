@@ -1,0 +1,17 @@
+{
+  "table_id": "bear_loot",
+  "entries": [
+    {
+      "item_definition_id": "ham",
+      "chance": 20.0,
+      "min_quantity": 1,
+      "max_quantity": 3
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 39.75,
+      "min_quantity": 1,
+      "max_quantity": 4
+    }
+  ]
+}

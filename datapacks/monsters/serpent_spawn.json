@@ -1,0 +1,83 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "earth_ranged",
+                          "min_damage":  80,
+                          "max_damage":  300,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "lifedrain_wave",
+                          "min_damage":  200,
+                          "max_damage":  500,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0
+                      },
+                      {
+                          "id":  "earth_wave",
+                          "min_damage":  200,
+                          "max_damage":  500,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  35,
+    "base_health":  3000.0,
+    "defense":  35,
+    "definition_id":  "serpent_spawn",
+    "detection_range":  8,
+    "display_name":  "Serpent Spawn",
+    "experience_reward":  3050.0,
+    "immunities":  {
+                       "earth":  true,
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "serpent_spawn_loot",
+    "run_on_health":  275,
+    "self_healing":  {
+                         "min":  250,
+                         "max":  400,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  250.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/serpent_spawn/serpent_spawn_east_idle.png",
+                                 "north":  "res://assets/creatures/serpent_spawn/serpent_spawn_north_idle.png",
+                                 "south":  "res://assets/creatures/serpent_spawn/serpent_spawn_south_idle.png",
+                                 "west":  "res://assets/creatures/serpent_spawn/serpent_spawn_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/serpent_spawn/serpent_spawn_east_walk1.png",
+                                              "res://assets/creatures/serpent_spawn/serpent_spawn_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/serpent_spawn/serpent_spawn_north_walk1.png",
+                                               "res://assets/creatures/serpent_spawn/serpent_spawn_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/serpent_spawn/serpent_spawn_south_walk1.png",
+                                               "res://assets/creatures/serpent_spawn/serpent_spawn_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/serpent_spawn/serpent_spawn_west_walk1.png",
+                                              "res://assets/creatures/serpent_spawn/serpent_spawn_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "poison",
+    "melee_skill":  125,
+    "melee_attack":  80,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/serpent_spawn/serpent_spawn_corpse_fresh.png",
+                           "res://Assets/creatures/serpent_spawn/serpent_spawn_corpse_decayed.png",
+                           "res://Assets/creatures/serpent_spawn/serpent_spawn_corpse_skeleton.png"
+                       ]
+}

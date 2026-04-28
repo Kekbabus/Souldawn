@@ -1,0 +1,8 @@
+{
+  "ability_id": "manadrain_ranged",
+  "ability_type": "manadrain",
+  "area_effect": "energy_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": true,
+  "projectile": "energy"
+}

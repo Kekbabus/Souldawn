@@ -1,0 +1,12 @@
+{
+  "name": "Conjure Arrow",
+  "words": "exevo con",
+  "mana_cost": 100,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "arrow",
+  "conjure_count": 20,
+  "reagent_id": "",
+  "vocations": ["paladin"],
+  "min_level": 0
+}

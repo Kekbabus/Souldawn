@@ -1,0 +1,220 @@
+[gd_scene format=3 uid="uid://bqwm6y4uarfne"]
+
+[node name="EquipmentGrid" type="PanelContainer"]
+offset_right = 200.0
+offset_bottom = 160.0
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Row1" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Neck" type="Panel" parent="VBox/Row1"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Neck"
+
+[node name="Label" type="Label" parent="VBox/Row1/Neck"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "NECK"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Helm" type="Panel" parent="VBox/Row1"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Head"
+
+[node name="Label" type="Label" parent="VBox/Row1/Helm"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "HELM"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Backpack" type="Panel" parent="VBox/Row1"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Backpack"
+
+[node name="Label" type="Label" parent="VBox/Row1/Backpack"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "BP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Row2" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="LeftHand" type="Panel" parent="VBox/Row2"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Shield"
+
+[node name="Label" type="Label" parent="VBox/Row2/LeftHand"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "LH"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Armor" type="Panel" parent="VBox/Row2"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Armor"
+
+[node name="Label" type="Label" parent="VBox/Row2/Armor"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "ARM"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightHand" type="Panel" parent="VBox/Row2"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Weapon"
+
+[node name="Label" type="Label" parent="VBox/Row2/RightHand"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "RH"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Row3" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Ring" type="Panel" parent="VBox/Row3"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Ring"
+
+[node name="Label" type="Label" parent="VBox/Row3/Ring"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "RING"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Legs" type="Panel" parent="VBox/Row3"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Legs"
+
+[node name="Label" type="Label" parent="VBox/Row3/Legs"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "LEGS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Ammo" type="Panel" parent="VBox/Row3"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Ammo"
+
+[node name="Label" type="Label" parent="VBox/Row3/Ammo"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "AMMO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Row4" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Panel" type="Panel" parent="VBox/Row4"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+
+[node name="Boots" type="Panel" parent="VBox/Row4"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Boots"
+
+[node name="Label" type="Label" parent="VBox/Row4/Boots"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "BOOTS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Cap" type="Panel" parent="VBox/Row4"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+tooltip_text = "Capacity"
+
+[node name="Label" type="Label" parent="VBox/Row4/Cap"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 8
+text = "CAP"
+horizontal_alignment = 1
+vertical_alignment = 1

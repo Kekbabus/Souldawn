@@ -1,0 +1,44 @@
+{
+  "abilities": [],
+  "ai_behavior": "flee",
+  "armor": 5,
+  "base_health": 30.0,
+  "defense": 5,
+  "definition_id": "cave_rat",
+  "detection_range": 8,
+  "display_name": "Cave Rat",
+  "experience_reward": 10.0,
+  "loot_table": "cave_rat_loot",
+  "run_on_health": 3,
+  "speed": 150.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/cave_rat/cave_rat_east_idle.png",
+      "north": "res://assets/creatures/cave_rat/cave_rat_north_idle.png",
+      "south": "res://assets/creatures/cave_rat/cave_rat_south_idle.png",
+      "west": "res://assets/creatures/cave_rat/cave_rat_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/cave_rat/cave_rat_east_walk1.png",
+        "res://assets/creatures/cave_rat/cave_rat_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/cave_rat/cave_rat_north_walk1.png",
+        "res://assets/creatures/cave_rat/cave_rat_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/cave_rat/cave_rat_south_walk1.png",
+        "res://assets/creatures/cave_rat/cave_rat_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/cave_rat/cave_rat_west_walk1.png",
+        "res://assets/creatures/cave_rat/cave_rat_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 10,
+  "melee_attack": 10,
+  "melee_interval": 2000
+}

@@ -1,0 +1,61 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  25,
+    "base_health":  250.0,
+    "defense":  25,
+    "definition_id":  "gargoyle",
+    "detection_range":  8,
+    "display_name":  "Gargoyle",
+    "experience_reward":  150.0,
+    "immunities":  {
+                       "lifedrain":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "gargoyle_loot",
+    "run_on_health":  30,
+    "self_healing":  {
+                         "min":  5,
+                         "max":  15,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  20
+                     },
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/gargoyle/gargoyle_east_idle.png",
+                                 "north":  "res://assets/creatures/gargoyle/gargoyle_north_idle.png",
+                                 "south":  "res://assets/creatures/gargoyle/gargoyle_south_idle.png",
+                                 "west":  "res://assets/creatures/gargoyle/gargoyle_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/gargoyle/gargoyle_east_walk1.png",
+                                              "res://assets/creatures/gargoyle/gargoyle_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/gargoyle/gargoyle_north_walk1.png",
+                                               "res://assets/creatures/gargoyle/gargoyle_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/gargoyle/gargoyle_south_walk1.png",
+                                               "res://assets/creatures/gargoyle/gargoyle_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/gargoyle/gargoyle_west_walk1.png",
+                                              "res://assets/creatures/gargoyle/gargoyle_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "energy",
+    "melee_skill":  55,
+    "melee_attack":  20,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/gargoyle/gargoyle_corpse_fresh.png",
+                           "res://Assets/creatures/gargoyle/gargoyle_corpse_decayed.png",
+                           "res://Assets/creatures/gargoyle/gargoyle_corpse_skeleton.png"
+                       ]
+}

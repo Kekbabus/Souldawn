@@ -1,0 +1,55 @@
+{
+  "abilities": [
+    {
+      "id": "physical_ranged",
+      "min_damage": 0,
+      "max_damage": 200,
+      "chance_percent": 20,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "melee",
+  "armor": 35,
+  "base_health": 950.0,
+  "defense": 35,
+  "definition_id": "orc_warlord",
+  "detection_range": 8,
+  "display_name": "Orc Warlord",
+  "experience_reward": 670.0,
+  "immunities": {
+    "invisible": true
+  },
+  "loot_table": "orc_warlord_loot",
+  "speed": 240.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/orc_warlord/orc_warlord_east_idle.png",
+      "north": "res://assets/creatures/orc_warlord/orc_warlord_north_idle.png",
+      "south": "res://assets/creatures/orc_warlord/orc_warlord_south_idle.png",
+      "west": "res://assets/creatures/orc_warlord/orc_warlord_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/orc_warlord/orc_warlord_east_walk1.png",
+        "res://assets/creatures/orc_warlord/orc_warlord_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/orc_warlord/orc_warlord_north_walk1.png",
+        "res://assets/creatures/orc_warlord/orc_warlord_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/orc_warlord/orc_warlord_south_walk1.png",
+        "res://assets/creatures/orc_warlord/orc_warlord_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/orc_warlord/orc_warlord_west_walk1.png",
+        "res://assets/creatures/orc_warlord/orc_warlord_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 125,
+  "melee_attack": 80,
+  "melee_interval": 2000
+}

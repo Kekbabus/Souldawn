@@ -1,0 +1,8 @@
+{
+  "ability_id": "fire_ranged",
+  "ability_type": "fire",
+  "area_effect": "fire_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": true,
+  "projectile": "fire"
+}

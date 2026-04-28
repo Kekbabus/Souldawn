@@ -1,0 +1,7 @@
+{
+  "ability_id": "poison_strike",
+  "ability_type": "poison",
+  "area_effect": "poison_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": false
+}

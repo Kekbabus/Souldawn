@@ -1,0 +1,8 @@
+{
+  "ability_id": "poison_ranged",
+  "ability_type": "poison",
+  "area_effect": "poison_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": true,
+  "projectile": "earth"
+}

@@ -1,0 +1,61 @@
+{
+	"abilities":  [
+					  {
+						  "id":  "earth_strike",
+						  "min_damage":  0,
+						  "max_damage":  35,
+						  "chance_percent":  10,
+						  "cooldown_seconds":  2.0
+					  }
+				  ],
+	"ai_behavior":  "flee",
+	"armor":  15,
+	"base_health":  320.0,
+	"defense":  15,
+	"definition_id":  "scarab",
+	"detection_range":  8,
+	"display_name":  "Scarab",
+	"experience_reward":  120.0,
+	"immunities":  {
+					   "earth":  true,
+					   "paralyze":  true
+				   },
+	"loot_table":  "scarab_loot",
+	"run_on_health":  80,
+	"speed":  170.0,
+	"sprites":  {
+					"idle":  {
+								 "east":  "res://assets/creatures/scarab/scarab_east_idle.png",
+								 "north":  "res://assets/creatures/scarab/scarab_north_idle.png",
+								 "south":  "res://assets/creatures/scarab/scarab_south_idle.png",
+								 "west":  "res://assets/creatures/scarab/scarab_west_idle.png"
+							 },
+					"walk":  {
+								 "east":  [
+											  "res://assets/creatures/scarab/scarab_east_walk1.png",
+                                              "res://assets/creatures/scarab/scarab_east_walk2.png"
+										  ],
+								 "north":  [
+											   "res://assets/creatures/scarab/scarab_north_walk1.png",
+                                               "res://assets/creatures/scarab/scarab_north_walk2.png"
+										   ],
+								 "south":  [
+											   "res://assets/creatures/scarab/scarab_south_walk1.png",
+                                               "res://assets/creatures/scarab/scarab_south_walk2.png"
+										   ],
+								 "west":  [
+											  "res://assets/creatures/scarab/scarab_west_walk1.png",
+                                              "res://assets/creatures/scarab/scarab_west_walk2.png"
+										  ]
+							 }
+				},
+	"creature_type":  "poison",
+	"melee_skill":  65,
+	"melee_attack":  20,
+	"melee_interval":  2000,
+	"corpse_sprites":  [
+						   "res://Assets/creatures/scarab/scarab_corpse_fresh.png",
+						   "res://Assets/creatures/scarab/scarab_corpse_decayed.png",
+                           "res://Assets/creatures/scarab/scarab_corpse_skeleton.png"
+					   ]
+}

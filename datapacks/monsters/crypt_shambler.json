@@ -1,0 +1,62 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_strike",
+                          "min_damage":  28,
+                          "max_damage":  55,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  25,
+    "base_health":  330.0,
+    "defense":  25,
+    "definition_id":  "crypt_shambler",
+    "detection_range":  8,
+    "display_name":  "Crypt Shambler",
+    "experience_reward":  195.0,
+    "immunities":  {
+                       "lifedrain":  true,
+                       "paralyze":  true,
+                       "earth":  true,
+                       "drown":  true
+                   },
+    "loot_table":  "crypt_shambler_loot",
+    "speed":  170.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/crypt_shambler/crypt_shambler_east_idle.png",
+                                 "north":  "res://assets/creatures/crypt_shambler/crypt_shambler_north_idle.png",
+                                 "south":  "res://assets/creatures/crypt_shambler/crypt_shambler_south_idle.png",
+                                 "west":  "res://assets/creatures/crypt_shambler/crypt_shambler_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/crypt_shambler/crypt_shambler_east_walk1.png",
+                                              "res://assets/creatures/crypt_shambler/crypt_shambler_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/crypt_shambler/crypt_shambler_north_walk1.png",
+                                               "res://assets/creatures/crypt_shambler/crypt_shambler_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/crypt_shambler/crypt_shambler_south_walk1.png",
+                                               "res://assets/creatures/crypt_shambler/crypt_shambler_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/crypt_shambler/crypt_shambler_west_walk1.png",
+                                              "res://assets/creatures/crypt_shambler/crypt_shambler_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "undead",
+    "melee_skill":  70,
+    "melee_attack":  36,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/crypt_shambler/crypt_shambler_corpse_fresh.png",
+                           "res://Assets/creatures/crypt_shambler/crypt_shambler_corpse_decayed.png",
+                           "res://Assets/creatures/crypt_shambler/crypt_shambler_corpse_skeleton.png"
+                       ]
+}

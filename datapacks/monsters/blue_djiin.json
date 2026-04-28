@@ -1,0 +1,69 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "fire_ranged",
+                          "min_damage":  45,
+                          "max_damage":  80,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "physical_area",
+                          "min_damage":  60,
+                          "max_damage":  105,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  15,
+    "base_health":  330.0,
+    "defense":  15,
+    "definition_id":  "blue_djiin",
+    "detection_range":  8,
+    "display_name":  "Blue Djiin",
+    "experience_reward":  215.0,
+    "immunities":  {
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "blue_djiin_loot",
+    "speed":  180.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/blue_djiin/blue_djiin_east_idle.png",
+                                 "north":  "res://assets/creatures/blue_djiin/blue_djiin_north_idle.png",
+                                 "south":  "res://assets/creatures/blue_djiin/blue_djiin_south_idle.png",
+                                 "west":  "res://assets/creatures/blue_djiin/blue_djiin_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/blue_djiin/blue_djiin_east_walk1.png",
+                                              "res://assets/creatures/blue_djiin/blue_djiin_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/blue_djiin/blue_djiin_north_walk1.png",
+                                               "res://assets/creatures/blue_djiin/blue_djiin_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/blue_djiin/blue_djiin_south_walk1.png",
+                                               "res://assets/creatures/blue_djiin/blue_djiin_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/blue_djiin/blue_djiin_west_walk1.png",
+                                              "res://assets/creatures/blue_djiin/blue_djiin_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  55,
+    "melee_attack":  28,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/blue_djiin/blue_djiin_corpse_fresh.png",
+                           "res://Assets/creatures/blue_djiin/blue_djiin_corpse_decayed.png",
+                           "res://Assets/creatures/blue_djiin/blue_djiin_corpse_skeleton.png"
+                       ]
+}

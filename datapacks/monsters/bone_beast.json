@@ -1,0 +1,79 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_strike",
+                          "min_damage":  30,
+                          "max_damage":  60,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0,
+                          "range":  1
+                      },
+                      {
+                          "id":  "earth_ranged",
+                          "min_damage":  40,
+                          "max_damage":  80,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  5
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  30,
+    "base_health":  515.0,
+    "defense":  30,
+    "definition_id":  "bone_beast",
+    "detection_range":  8,
+    "display_name":  "Bone Beast",
+    "experience_reward":  580.0,
+    "immunities":  {
+                       "earth":  true,
+                       "drown":  true,
+                       "lifedrain":  true,
+                       "paralyze":  true,
+                       "invisible":  true,
+                       "drunk":  true
+                   },
+    "loot_table":  "bone_beast_loot",
+    "self_healing":  {
+                         "min":  50,
+                         "max":  60,
+                         "cooldown_seconds":  4.0,
+                         "chance_percent":  15
+                     },
+    "speed":  210.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/bone_beast/bone_beast_east_idle.png",
+                                 "north":  "res://assets/creatures/bone_beast/bone_beast_north_idle.png",
+                                 "south":  "res://assets/creatures/bone_beast/bone_beast_south_idle.png",
+                                 "west":  "res://assets/creatures/bone_beast/bone_beast_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/bone_beast/bone_beast_east_walk1.png",
+                                              "res://assets/creatures/bone_beast/bone_beast_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/bone_beast/bone_beast_north_walk1.png",
+                                               "res://assets/creatures/bone_beast/bone_beast_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/bone_beast/bone_beast_south_walk1.png",
+                                               "res://assets/creatures/bone_beast/bone_beast_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/bone_beast/bone_beast_west_walk1.png",
+                                              "res://assets/creatures/bone_beast/bone_beast_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "undead",
+    "melee_skill":  150,
+    "melee_attack":  100,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/bone_beast/bone_beast_corpse_fresh.png",
+                           "res://Assets/creatures/bone_beast/bone_beast_corpse_decayed.png",
+                           "res://Assets/creatures/bone_beast/bone_beast_corpse_skeleton.png"
+                       ]
+}

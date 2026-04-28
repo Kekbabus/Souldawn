@@ -1,0 +1,17 @@
+{
+  "table_id": "troll_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 65.3,
+      "min_quantity": 1,
+      "max_quantity": 12
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 15.0,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

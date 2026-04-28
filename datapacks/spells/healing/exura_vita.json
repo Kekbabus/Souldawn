@@ -1,0 +1,20 @@
+{
+  "name": "Exura Vita",
+  "words": "exura vita",
+  "mana_cost": 100,
+  "cooldown": 1.0,
+  "type": "heal",
+  "heal_min": 80,
+  "heal_max": 160,
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 20,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 6.8,
+  "formula_ml_max": 12.9,
+  "formula_base_min": 42,
+  "formula_base_max": 90,
+  "caster_effect": "blueshimmer"
+}

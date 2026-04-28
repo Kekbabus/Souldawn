@@ -1,0 +1,7 @@
+{
+  "table_id": "priestess_loot",
+  "entries": [
+    { "item_definition_id": "crystal_necklace", "weight": 20, "chance": 0.66, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "black_shield", "weight": 5, "chance": 0.2, "min_quantity": 1, "max_quantity": 1 }
+  ]
+}

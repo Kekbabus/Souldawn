@@ -1,0 +1,53 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  20,
+    "base_health":  410.0,
+    "defense":  20,
+    "definition_id":  "lizard_templar",
+    "detection_range":  8,
+    "display_name":  "Lizard Templar",
+    "experience_reward":  155.0,
+    "immunities":  {
+                       "earth":  true
+                   },
+    "loot_table":  "lizard_templar_loot",
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/lizard_templar/lizard_templar_east_idle.png",
+                                 "north":  "res://assets/creatures/lizard_templar/lizard_templar_north_idle.png",
+                                 "south":  "res://assets/creatures/lizard_templar/lizard_templar_south_idle.png",
+                                 "west":  "res://assets/creatures/lizard_templar/lizard_templar_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/lizard_templar/lizard_templar_east_walk1.png",
+                                              "res://assets/creatures/lizard_templar/lizard_templar_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/lizard_templar/lizard_templar_north_walk1.png",
+                                               "res://assets/creatures/lizard_templar/lizard_templar_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/lizard_templar/lizard_templar_south_walk1.png",
+                                               "res://assets/creatures/lizard_templar/lizard_templar_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/lizard_templar/lizard_templar_west_walk1.png",
+                                              "res://assets/creatures/lizard_templar/lizard_templar_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  30,
+    "melee_attack":  35,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/lizard_templar/lizard_templar_corpse_fresh.png",
+                           "res://Assets/creatures/lizard_templar/lizard_templar_corpse_decayed.png",
+                           "res://Assets/creatures/lizard_templar/lizard_templar_corpse_skeleton.png"
+                       ]
+}

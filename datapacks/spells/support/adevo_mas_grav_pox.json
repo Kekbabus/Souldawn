@@ -1,0 +1,15 @@
+{
+  "name": "Poison Wall",
+  "words": "adevo mas grav pox",
+  "mana_cost": 640,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "poison_wall_rune",
+  "conjure_count": 8,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 29
+}

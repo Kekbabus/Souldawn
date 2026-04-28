@@ -1,0 +1,50 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  15,
+    "base_health":  300.0,
+    "defense":  15,
+    "definition_id":  "terror_bird",
+    "detection_range":  8,
+    "display_name":  "Terror Bird",
+    "experience_reward":  150.0,
+    "loot_table":  "terror_bird_loot",
+    "speed":  220.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/terror_bird/terror_bird_east_idle.png",
+                                 "north":  "res://assets/creatures/terror_bird/terror_bird_north_idle.png",
+                                 "south":  "res://assets/creatures/terror_bird/terror_bird_south_idle.png",
+                                 "west":  "res://assets/creatures/terror_bird/terror_bird_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/terror_bird/terror_bird_east_walk1.png",
+                                              "res://assets/creatures/terror_bird/terror_bird_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/terror_bird/terror_bird_north_walk1.png",
+                                               "res://assets/creatures/terror_bird/terror_bird_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/terror_bird/terror_bird_south_walk1.png",
+                                               "res://assets/creatures/terror_bird/terror_bird_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/terror_bird/terror_bird_west_walk1.png",
+                                              "res://assets/creatures/terror_bird/terror_bird_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  35,
+    "melee_attack":  40,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/terror_bird/terror_bird_corpse_fresh.png",
+                           "res://Assets/creatures/terror_bird/terror_bird_corpse_decayed.png",
+                           "res://Assets/creatures/terror_bird/terror_bird_corpse_skeleton.png"
+                       ]
+}

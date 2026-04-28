@@ -1,0 +1,23 @@
+{
+  "name": "Exori Vis",
+  "words": "exori vis",
+  "mana_cost": 20,
+  "cooldown": 2.0,
+  "type": "wave",
+  "damage_min": 15,
+  "damage_max": 45,
+  "area_pattern": "AREA_BEAM1",
+  "damage_element": "energy",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 8,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.4,
+  "formula_ml_max": 2.2,
+  "formula_base_min": 8,
+  "formula_base_max": 14,
+  "projectile": "energy",
+  "caster_effect": "blueshimmer",
+  "tile_effect": "energy_effect"
+}

@@ -1,0 +1,17 @@
+{
+  "table_id": "deer_loot",
+  "entries": [
+    {
+      "item_definition_id": "meat",
+      "chance": 80.0,
+      "min_quantity": 1,
+      "max_quantity": 4
+    },
+    {
+      "item_definition_id": "ham",
+      "chance": 50.0,
+      "min_quantity": 1,
+      "max_quantity": 2
+    }
+  ]
+}

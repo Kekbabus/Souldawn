@@ -1,0 +1,23 @@
+{
+  "name": "Ethereal Spear",
+  "words": "exori con",
+  "mana_cost": 35,
+  "cooldown": 2.0,
+  "type": "wave",
+  "damage_min": 15,
+  "damage_max": 55,
+  "area_pattern": "AREA_BEAM1",
+  "damage_element": "physical",
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 23,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.5,
+  "formula_ml_max": 2.5,
+  "formula_base_min": 10,
+  "formula_base_max": 18,
+  "projectile": "spear",
+  "caster_effect": "blueshimmer",
+  "tile_effect": "hit_physical"
+}

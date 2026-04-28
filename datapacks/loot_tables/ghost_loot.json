@@ -1,0 +1,8 @@
+{
+  "table_id": "ghost_loot",
+  "entries": [
+    { "item_definition_id": "morning_star", "weight": 50, "chance": 10.61, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "combat_knife", "weight": 50, "chance": 7.002, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "stealth_ring", "weight": 5, "chance": 0.18, "min_quantity": 1, "max_quantity": 1 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Exura Gran Mas Res",
+  "words": "exura gran mas res",
+  "mana_cost": 150,
+  "cooldown": 2.0,
+  "type": "area_heal",
+  "heal_min": 50,
+  "heal_max": 100,
+  "range": 3,
+  "vocations": [
+    "druid"
+  ],
+  "min_level": 30,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 3.0,
+  "formula_ml_max": 5.8,
+  "formula_base_min": 20,
+  "formula_base_max": 40,
+  "caster_effect": "blueshimmer"
+}

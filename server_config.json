@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "server_name": "Souldawn",
+  "max_players": 1000,
+  "save_interval_seconds": 300,
+  "motd": "Welcome to Souldawn!"
+}

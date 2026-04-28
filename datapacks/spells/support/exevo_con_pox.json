@@ -1,0 +1,12 @@
+{
+  "name": "Conjure Poisoned Arrow",
+  "words": "exevo con pox",
+  "mana_cost": 130,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "poison_arrow",
+  "conjure_count": 14,
+  "reagent_id": "",
+  "vocations": ["paladin"],
+  "min_level": 0
+}

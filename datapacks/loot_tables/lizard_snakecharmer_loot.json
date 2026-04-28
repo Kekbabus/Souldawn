@@ -1,0 +1,11 @@
+{
+  "table_id": "lizard_snakecharmer_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 83.74,
+      "min_quantity": 1,
+      "max_quantity": 55
+    }
+  ]
+}

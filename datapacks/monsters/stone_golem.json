@@ -1,0 +1,55 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  20,
+    "base_health":  270.0,
+    "defense":  20,
+    "definition_id":  "stone_golem",
+    "detection_range":  8,
+    "display_name":  "Stone Golem",
+    "experience_reward":  160.0,
+    "immunities":  {
+                       "paralyze":  true,
+                       "drown":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "stone_golem_loot",
+    "speed":  180.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/stone_golem/stone_golem_east_idle.png",
+                                 "north":  "res://assets/creatures/stone_golem/stone_golem_north_idle.png",
+                                 "south":  "res://assets/creatures/stone_golem/stone_golem_south_idle.png",
+                                 "west":  "res://assets/creatures/stone_golem/stone_golem_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/stone_golem/stone_golem_east_walk1.png",
+                                              "res://assets/creatures/stone_golem/stone_golem_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/stone_golem/stone_golem_north_walk1.png",
+                                               "res://assets/creatures/stone_golem/stone_golem_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/stone_golem/stone_golem_south_walk1.png",
+                                               "res://assets/creatures/stone_golem/stone_golem_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/stone_golem/stone_golem_west_walk1.png",
+                                              "res://assets/creatures/stone_golem/stone_golem_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "energy",
+    "melee_skill":  45,
+    "melee_attack":  40,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/stone_golem/stone_golem_corpse_fresh.png",
+                           "res://Assets/creatures/stone_golem/stone_golem_corpse_decayed.png",
+                           "res://Assets/creatures/stone_golem/stone_golem_corpse_skeleton.png"
+                       ]
+}

@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  10,
+    "base_health":  80.0,
+    "defense":  10,
+    "definition_id":  "bear",
+    "detection_range":  8,
+    "display_name":  "Bear",
+    "experience_reward":  23.0,
+    "loot_table":  "bear_loot",
+    "run_on_health":  15,
+    "speed":  145.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/bear/bear_east_idle.png",
+                                 "north":  "res://assets/creatures/bear/bear_north_idle.png",
+                                 "south":  "res://assets/creatures/bear/bear_south_idle.png",
+                                 "west":  "res://assets/creatures/bear/bear_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/bear/bear_east_walk1.png",
+                                              "res://assets/creatures/bear/bear_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/bear/bear_north_walk1.png",
+                                               "res://assets/creatures/bear/bear_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/bear/bear_south_walk1.png",
+                                               "res://assets/creatures/bear/bear_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/bear/bear_west_walk1.png",
+                                              "res://assets/creatures/bear/bear_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  40,
+    "melee_attack":  10,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/bear/corpse (1).png",
+                           "res://Assets/creatures/bear/corpse (2).png",
+                           "res://Assets/creatures/bear/corpse (3).png"
+                       ]
+}

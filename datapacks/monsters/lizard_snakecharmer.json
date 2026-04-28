@@ -1,0 +1,75 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "earth_area",
+                          "min_damage":  50,
+                          "max_damage":  110,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "ranged",
+    "armor":  15,
+    "base_health":  325.0,
+    "defense":  15,
+    "definition_id":  "lizard_snakecharmer",
+    "detection_range":  8,
+    "display_name":  "Lizard Snakecharmer",
+    "experience_reward":  210.0,
+    "immunities":  {
+                       "invisible":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "lizard_snakecharmer_loot",
+    "run_on_health":  15,
+    "self_healing":  {
+                         "min":  50,
+                         "max":  100,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  50
+                     },
+    "speed":  190.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_east_idle.png",
+                                 "north":  "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_north_idle.png",
+                                 "south":  "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_south_idle.png",
+                                 "west":  "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_east_walk1.png",
+                                              "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_north_walk1.png",
+                                               "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_south_walk1.png",
+                                               "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_west_walk1.png",
+                                              "res://assets/creatures/lizard_snakecharmer/lizard_snakecharmer_west_walk2.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "cobra",
+                        "interval_ms":  2000,
+                        "chance":  20
+                    }
+                ],
+    "creature_type":  "blood",
+    "melee_skill":  20,
+    "melee_attack":  20,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/lizard_snakecharmer/lizard_snakecharmer_corpse_fresh.png",
+                           "res://Assets/creatures/lizard_snakecharmer/lizard_snakecharmer_corpse_decayed.png",
+                           "res://Assets/creatures/lizard_snakecharmer/lizard_snakecharmer_corpse_skeleton.png"
+                       ]
+}

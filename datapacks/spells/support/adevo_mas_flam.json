@@ -1,0 +1,15 @@
+{
+  "name": "Firebomb",
+  "words": "adevo mas flam",
+  "mana_cost": 600,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "fire_bomb_rune",
+  "conjure_count": 4,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 27
+}

@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://v2_sidebar"]
+
+[ext_resource type="PackedScene" path="res://Scenes/ui_health_bar.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Scenes/ui_equipment_grid.tscn" id="2"]
+
+[node name="Sidebar" type="PanelContainer"]
+custom_minimum_size = Vector2(200, 0)
+offset_right = 200.0
+offset_bottom = 720.0
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="HealthBar" parent="VBox" instance=ExtResource("1")]
+layout_mode = 2
+
+[node name="ManaBar" parent="VBox" instance=ExtResource("1")]
+layout_mode = 2
+
+[node name="EquipmentGrid" parent="VBox" instance=ExtResource("2")]
+layout_mode = 2
+
+[node name="ContainerScroll" type="ScrollContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="ContainerStack" type="VBoxContainer" parent="VBox/ContainerScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 2

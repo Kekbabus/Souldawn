@@ -1,0 +1,8 @@
+{
+  "ability_id": "fire_area",
+  "ability_type": "fire",
+  "area_effect": "fire_effect",
+  "area_pattern": "AREA_CIRCLE2X2",
+  "target": true,
+  "projectile": "fire"
+}

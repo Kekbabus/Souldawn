@@ -1,0 +1,17 @@
+{
+  "table_id": "polar_bear_loot",
+  "entries": [
+    {
+      "item_definition_id": "ham",
+      "chance": 50.0,
+      "min_quantity": 1,
+      "max_quantity": 2
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 5.0,
+      "min_quantity": 1,
+      "max_quantity": 4
+    }
+  ]
+}

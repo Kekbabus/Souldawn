@@ -1,0 +1,15 @@
+{
+  "name": "Strong Haste",
+  "words": "utani gran hur",
+  "mana_cost": 100,
+  "cooldown": 2.0,
+  "type": "buff",
+  "buff_id": "haste",
+  "duration_ms": 22000,
+  "speed_bonus": 130,
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 20
+}

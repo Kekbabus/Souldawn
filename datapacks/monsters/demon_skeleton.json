@@ -1,0 +1,58 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  30,
+    "base_health":  400.0,
+    "defense":  30,
+    "definition_id":  "demon_skeleton",
+    "detection_range":  8,
+    "display_name":  "Demon Skeleton",
+    "experience_reward":  240.0,
+    "immunities":  {
+                       "paralyze":  true,
+                       "fire":  true,
+                       "earth":  true,
+                       "drown":  true,
+                       "lifedrain":  true,
+                       "drunk":  true
+                   },
+    "loot_table":  "demon_skeleton_loot",
+    "speed":  170.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/demon_skeleton/demon_skeleton_east_idle.png",
+                                 "north":  "res://assets/creatures/demon_skeleton/demon_skeleton_north_idle.png",
+                                 "south":  "res://assets/creatures/demon_skeleton/demon_skeleton_south_idle.png",
+                                 "west":  "res://assets/creatures/demon_skeleton/demon_skeleton_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/demon_skeleton/demon_skeleton_east_walk1.png",
+                                              "res://assets/creatures/demon_skeleton/demon_skeleton_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/demon_skeleton/demon_skeleton_north_walk1.png",
+                                               "res://assets/creatures/demon_skeleton/demon_skeleton_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/demon_skeleton/demon_skeleton_south_walk1.png",
+                                               "res://assets/creatures/demon_skeleton/demon_skeleton_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/demon_skeleton/demon_skeleton_west_walk1.png",
+                                              "res://assets/creatures/demon_skeleton/demon_skeleton_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "undead",
+    "melee_skill":  92,
+    "melee_attack":  54,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/demon_skeleton/demon_skeleton_corpse_fresh.png",
+                           "res://Assets/creatures/demon_skeleton/demon_skeleton_corpse_decayed.png",
+                           "res://Assets/creatures/demon_skeleton/demon_skeleton_corpse_skeleton.png"
+                       ]
+}

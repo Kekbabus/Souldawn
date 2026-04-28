@@ -1,0 +1,17 @@
+{
+  "table_id": "panda_loot",
+  "entries": [
+    {
+      "item_definition_id": "meat",
+      "chance": 70.5,
+      "min_quantity": 1,
+      "max_quantity": 4
+    },
+    {
+      "item_definition_id": "ham",
+      "chance": 39.0,
+      "min_quantity": 1,
+      "max_quantity": 2
+    }
+  ]
+}

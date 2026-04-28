@@ -1,0 +1,60 @@
+﻿{
+    "definition_id":  "bat",
+    "display_name":  "Bat",
+    "base_health":  30,
+    "speed":  230,
+    "melee_skill":  10,
+    "melee_attack":  8,
+    "melee_interval":  2000,
+    "armor":  5,
+    "defense":  5,
+    "experience_reward":  10,
+    "detection_range":  6,
+    "run_on_health":  3,
+    "ai_behavior":  "aggressive",
+    "creature_type":  "blood",
+    "loot_table":  "bat_loot",
+    "sprites":  {
+                    "idle":  {
+                                 "south":  [
+                                               "res://assets/creatures/bat/bat_south_idle1.png",
+                                               "res://assets/creatures/bat/bat_south_idle2.png"
+                                           ],
+                                 "north":  [
+                                               "res://assets/creatures/bat/bat_north_idle1.png",
+                                               "res://assets/creatures/bat/bat_north_idle2.png"
+                                           ],
+                                 "east":  [
+                                              "res://assets/creatures/bat/bat_east_idle1.png",
+                                              "res://assets/creatures/bat/bat_east_idle2.png"
+                                          ],
+                                 "west":  [
+                                              "res://assets/creatures/bat/bat_west_idle1.png",
+                                              "res://assets/creatures/bat/bat_west_idle2.png"
+                                          ]
+                             },
+                    "walk":  {
+                                 "south":  [
+                                               "res://assets/creatures/bat/bat_south_idle1.png",
+                                               "res://assets/creatures/bat/bat_south_idle2.png"
+                                           ],
+                                 "north":  [
+                                               "res://assets/creatures/bat/bat_north_idle1.png",
+                                               "res://assets/creatures/bat/bat_north_idle2.png"
+                                           ],
+                                 "east":  [
+                                              "res://assets/creatures/bat/bat_east_idle1.png",
+                                              "res://assets/creatures/bat/bat_east_idle2.png"
+                                          ],
+                                 "west":  [
+                                              "res://assets/creatures/bat/bat_west_idle1.png",
+                                              "res://assets/creatures/bat/bat_west_idle2.png"
+                                          ]
+                             }
+                },
+    "corpse_sprites":  [
+                           "res://Assets/creatures/bat/corpse (1).png",
+                           "res://Assets/creatures/bat/corpse (2).png",
+                           "res://Assets/creatures/bat/corpse (3).png"
+                       ]
+}

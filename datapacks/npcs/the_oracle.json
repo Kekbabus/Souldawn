@@ -1,0 +1,50 @@
+{
+  "definition_id": "the_oracle",
+  "display_name": "The Oracle",
+  "outfit_id": "mage_female",
+  "sprite_id": 0,
+  "position": { "x": 100, "y": 100, "z": 7 },
+  "walkable": false,
+  "wander_radius": 0,
+  "dialogue_tree": {
+    "greeting": "Welcome, young adventurer. I am The Oracle. Ask me about your {vocation} when you are ready to leave this island.",
+    "farewell": "May the gods guide your path.",
+    "keywords": {
+      "vocation": {
+        "text": "When you reach level 8, you may choose a vocation. Would you like to become a {knight}, {paladin}, {sorcerer}, or {druid}?",
+        "keywords": {
+          "knight": {
+            "text": "Knights are masters of melee combat with the highest health. Do you wish to become a knight? Say {yes} or {no}.",
+            "keywords": {
+              "yes": { "text": "You are now a Knight! Go forth and conquer.", "action": "set_vocation:knight" },
+              "no": { "text": "Very well. What vocation interests you then?" }
+            }
+          },
+          "paladin": {
+            "text": "Paladins are holy warriors skilled with distance weapons. Do you wish to become a paladin? Say {yes} or {no}.",
+            "keywords": {
+              "yes": { "text": "You are now a Paladin! May your aim be true.", "action": "set_vocation:paladin" },
+              "no": { "text": "Very well. What vocation interests you then?" }
+            }
+          },
+          "sorcerer": {
+            "text": "Sorcerers wield devastating attack magic. Do you wish to become a sorcerer? Say {yes} or {no}.",
+            "keywords": {
+              "yes": { "text": "You are now a Sorcerer! Harness the arcane.", "action": "set_vocation:sorcerer" },
+              "no": { "text": "Very well. What vocation interests you then?" }
+            }
+          },
+          "druid": {
+            "text": "Druids are masters of nature and healing magic. Do you wish to become a druid? Say {yes} or {no}.",
+            "keywords": {
+              "yes": { "text": "You are now a Druid! Nature is your ally.", "action": "set_vocation:druid" },
+              "no": { "text": "Very well. What vocation interests you then?" }
+            }
+          }
+        }
+      },
+      "name": { "text": "I am The Oracle. I have guided adventurers for centuries." },
+      "job": { "text": "I help young adventurers choose their path in life." }
+    }
+  }
+}

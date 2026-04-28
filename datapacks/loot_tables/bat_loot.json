@@ -1,0 +1,11 @@
+{
+  "table_id": "bat_loot",
+  "entries": [
+    {
+      "item_definition_id": "bat_wing",
+      "chance": 1.22,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

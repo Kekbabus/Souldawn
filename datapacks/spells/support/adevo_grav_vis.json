@@ -1,0 +1,15 @@
+{
+  "name": "Energy Field",
+  "words": "adevo grav vis",
+  "mana_cost": 320,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "energy_field_rune",
+  "conjure_count": 6,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 18
+}

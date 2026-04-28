@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  15,
+    "base_health":  105.0,
+    "defense":  15,
+    "definition_id":  "crocodile",
+    "detection_range":  8,
+    "display_name":  "Crocodile",
+    "experience_reward":  40.0,
+    "loot_table":  "crocodile_loot",
+    "run_on_health":  10,
+    "speed":  190.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/crocodile/crocodile_east_idle.png",
+                                 "north":  "res://assets/creatures/crocodile/crocodile_north_idle.png",
+                                 "south":  "res://assets/creatures/crocodile/crocodile_south_idle.png",
+                                 "west":  "res://assets/creatures/crocodile/crocodile_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/crocodile/crocodile_east_walk1.png",
+                                              "res://assets/creatures/crocodile/crocodile_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/crocodile/crocodile_north_walk1.png",
+                                               "res://assets/creatures/crocodile/crocodile_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/crocodile/crocodile_south_walk1.png",
+                                               "res://assets/creatures/crocodile/crocodile_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/crocodile/crocodile_west_walk1.png",
+                                              "res://assets/creatures/crocodile/crocodile_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  20,
+    "melee_attack":  16,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/crocodile/crocodile_corpse_fresh.png",
+                           "res://Assets/creatures/crocodile/crocodile_corpse_decayed.png",
+                           "res://Assets/creatures/crocodile/crocodile_corpse_skeleton.png"
+                       ]
+}

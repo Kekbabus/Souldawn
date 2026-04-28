@@ -1,0 +1,54 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "passive",
+    "armor":  10,
+    "base_health":  80.0,
+    "defense":  10,
+    "definition_id":  "panda",
+    "detection_range":  0,
+    "display_name":  "Panda",
+    "experience_reward":  23.0,
+    "immunities":  {
+                       "earth":  true
+                   },
+    "loot_table":  "panda_loot",
+    "run_on_health":  15,
+    "speed":  150.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/panda/panda_east_idle.png",
+                                 "north":  "res://assets/creatures/panda/panda_north_idle.png",
+                                 "south":  "res://assets/creatures/panda/panda_south_idle.png",
+                                 "west":  "res://assets/creatures/panda/panda_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/panda/panda_east_walk1.png",
+                                              "res://assets/creatures/panda/panda_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/panda/panda_north_walk1.png",
+                                               "res://assets/creatures/panda/panda_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/panda/panda_south_walk1.png",
+                                               "res://assets/creatures/panda/panda_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/panda/panda_west_walk1.png",
+                                              "res://assets/creatures/panda/panda_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  10,
+    "melee_attack":  20,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/panda/panda_corpse_fresh.png",
+                           "res://Assets/creatures/panda/panda_corpse_decayed.png",
+                           "res://Assets/creatures/panda/panda_corpse_skeleton.png"
+                       ]
+}

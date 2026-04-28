@@ -1,0 +1,8 @@
+{
+  "ability_id": "energy_area",
+  "ability_type": "energy",
+  "area_effect": "energy_effect",
+  "area_pattern": "AREA_CIRCLE2X2",
+  "target": true,
+  "projectile": "energy"
+}

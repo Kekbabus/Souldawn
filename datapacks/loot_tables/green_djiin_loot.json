@@ -1,0 +1,8 @@
+{
+  "table_id": "green_djiin_loot",
+  "entries": [
+    { "item_definition_id": "gold_coin", "weight": 100, "chance": 41.0, "min_quantity": 1, "max_quantity": 70 },
+    { "item_definition_id": "gold_coin", "weight": 100, "chance": 51.0, "min_quantity": 1, "max_quantity": 45 },
+    { "item_definition_id": "green_gem", "weight": 50, "chance": 2.96, "min_quantity": 1, "max_quantity": 4 }
+  ]
+}

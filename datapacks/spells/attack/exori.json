@@ -1,0 +1,22 @@
+{
+  "name": "Exori",
+  "words": "exori",
+  "mana_cost": 40,
+  "cooldown": 2.0,
+  "type": "wave",
+  "damage_min": 15,
+  "damage_max": 45,
+  "area_pattern": "AREA_SQUARE1X1",
+  "damage_element": "physical",
+  "vocations": [
+    "knight"
+  ],
+  "min_level": 8,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.5,
+  "formula_ml_max": 3.0,
+  "formula_base_min": 10,
+  "formula_base_max": 20,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "hit_physical"
+}

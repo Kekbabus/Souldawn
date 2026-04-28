@@ -1,0 +1,17 @@
+{
+  "table_id": "vampire_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 90.23,
+      "min_quantity": 1,
+      "max_quantity": 60
+    },
+    {
+      "item_definition_id": "torch",
+      "chance": 1.0,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

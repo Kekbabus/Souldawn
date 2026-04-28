@@ -1,0 +1,12 @@
+{
+  "name": "Intense Healing Rune",
+  "words": "adura gran",
+  "mana_cost": 240,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "intense_healing_rune",
+  "conjure_count": 2,
+  "reagent_id": "blankrune",
+  "vocations": ["druid"],
+  "min_level": 1
+}

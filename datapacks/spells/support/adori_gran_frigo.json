@@ -1,0 +1,14 @@
+{
+  "name": "Avalanche Rune",
+  "words": "adori gran frigo",
+  "mana_cost": 530,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "avalanche_rune",
+  "conjure_count": 4,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "druid"
+  ],
+  "min_level": 30
+}

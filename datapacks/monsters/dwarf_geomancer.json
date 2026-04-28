@@ -1,0 +1,70 @@
+{
+  "abilities": [
+    {
+      "id": "earth_ranged",
+      "min_damage": 50,
+      "max_damage": 110,
+      "chance_percent": 20,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    },
+    {
+      "id": "manadrain_ranged",
+      "min_damage": 50,
+      "max_damage": 80,
+      "chance_percent": 10,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "ranged",
+  "armor": 15,
+  "base_health": 380.0,
+  "defense": 15,
+  "definition_id": "dwarf_geomancer",
+  "detection_range": 8,
+  "display_name": "Dwarf Geomancer",
+  "experience_reward": 265.0,
+  "immunities": {
+    "invisible": true
+  },
+  "loot_table": "dwarf_geomancer_loot",
+  "run_on_health": 110,
+  "self_healing": {
+    "min": 75,
+    "max": 125,
+    "cooldown_seconds": 2.0,
+    "chance_percent": 40
+  },
+  "speed": 190.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_east_idle.png",
+      "north": "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_north_idle.png",
+      "south": "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_south_idle.png",
+      "west": "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_east_walk1.png",
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_north_walk1.png",
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_south_walk1.png",
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_west_walk1.png",
+        "res://assets/creatures/dwarf_geomancer/dwarf_geomancer_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 20,
+  "melee_attack": 16,
+  "melee_interval": 2000
+}

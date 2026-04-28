@@ -1,0 +1,28 @@
+{
+  "definition_id": "norma",
+  "display_name": "Norma",
+  "outfit_id": "citizen_female",
+  "sprite_id": 0,
+  "position": { "x": 105, "y": 100, "z": 7 },
+  "walkable": false,
+  "dialogue_tree": {
+    "greeting": "Welcome to my little kitchen! I sell {trade} food and potions to keep adventurers going.",
+    "farewell": "Stay well fed out there!",
+    "keywords": {
+      "trade": { "text": "Here's what I've got cooking.", "action": "open_shop" },
+      "name": { "text": "I'm Norma. I run the food stall here." },
+      "job": { "text": "I sell food and potions. Say {trade} to see what's available." },
+      "food": { "text": "Food keeps your health regenerating over time. The bigger the meal, the longer it lasts." },
+      "potion": { "text": "Potions give you an instant boost. Health potions heal you, mana potions restore your magic." }
+    }
+  },
+  "shop_offers": [
+    { "item_id": "bread", "buy_price": 3, "sell_price": 1 },
+    { "item_id": "cheese", "buy_price": 4, "sell_price": 1 },
+    { "item_id": "ham", "buy_price": 8, "sell_price": 3 },
+    { "item_id": "meat", "buy_price": 2, "sell_price": 1 },
+    { "item_id": "fish", "buy_price": 2, "sell_price": 1 },
+    { "item_id": "health_potion", "buy_price": 50, "sell_price": 20 },
+    { "item_id": "mana_potion", "buy_price": 50, "sell_price": 20 }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Groundshaker",
+  "words": "exori mas",
+  "mana_cost": 160,
+  "cooldown": 4.0,
+  "type": "area",
+  "damage_min": 30,
+  "damage_max": 90,
+  "area_pattern": "AREA_CIRCLE3X3",
+  "damage_element": "physical",
+  "vocations": [
+    "knight"
+  ],
+  "min_level": 33,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 2.0,
+  "formula_ml_max": 4.0,
+  "formula_base_min": 15,
+  "formula_base_max": 30,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "hit_physical"
+}

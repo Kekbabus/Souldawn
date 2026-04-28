@@ -1,0 +1,16 @@
+{
+  "name": "Magic Shield",
+  "words": "utamo vita",
+  "mana_cost": 50,
+  "cooldown": 2.0,
+  "type": "buff",
+  "buff_id": "magic_shield",
+  "duration_ms": 200000,
+  "speed_bonus": 0,
+  "vocations": [
+    "sorcerer",
+    "druid",
+    "paladin"
+  ],
+  "min_level": 14
+}

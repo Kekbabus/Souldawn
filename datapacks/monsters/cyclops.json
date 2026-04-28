@@ -1,0 +1,50 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  20,
+    "base_health":  260.0,
+    "defense":  20,
+    "definition_id":  "cyclops",
+    "detection_range":  8,
+    "display_name":  "Cyclops",
+    "experience_reward":  150.0,
+    "loot_table":  "cyclops_loot",
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/cyclops/cyclops_east_idle.png",
+                                 "north":  "res://assets/creatures/cyclops/cyclops_north_idle.png",
+                                 "south":  "res://assets/creatures/cyclops/cyclops_south_idle.png",
+                                 "west":  "res://assets/creatures/cyclops/cyclops_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/cyclops/cyclops_east_walk1.png",
+                                              "res://assets/creatures/cyclops/cyclops_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/cyclops/cyclops_north_walk1.png",
+                                               "res://assets/creatures/cyclops/cyclops_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/cyclops/cyclops_south_walk1.png",
+                                               "res://assets/creatures/cyclops/cyclops_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/cyclops/cyclops_west_walk1.png",
+                                              "res://assets/creatures/cyclops/cyclops_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  60,
+    "melee_attack":  30,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/cyclops/cyclops_corpse_fresh.png",
+                           "res://Assets/creatures/cyclops/cyclops_corpse_decayed.png",
+                           "res://Assets/creatures/cyclops/cyclops_corpse_skeleton.png"
+                       ]
+}

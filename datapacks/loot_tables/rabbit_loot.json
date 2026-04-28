@@ -1,0 +1,11 @@
+{
+  "table_id": "rabbit_loot",
+  "entries": [
+    {
+      "item_definition_id": "meat",
+      "chance": 85.62,
+      "min_quantity": 1,
+      "max_quantity": 2
+    }
+  ]
+}

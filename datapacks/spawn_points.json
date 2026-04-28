@@ -1,0 +1,6 @@
+[
+  {"definition_id": "rat", "x": 5, "y": 5, "z": 7, "respawn_seconds": 30},
+  {"definition_id": "rat", "x": 7, "y": 5, "z": 7, "respawn_seconds": 30},
+  {"definition_id": "billy", "x": 3, "y": 3, "z": 7, "respawn_seconds": 0},
+  {"definition_id": "banker", "x": 1, "y": 3, "z": 7, "respawn_seconds": 0}
+]

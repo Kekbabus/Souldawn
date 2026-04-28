@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  10,
+    "base_health":  85.0,
+    "defense":  10,
+    "definition_id":  "polar_bear",
+    "detection_range":  8,
+    "display_name":  "Polar Bear",
+    "experience_reward":  28.0,
+    "loot_table":  "polar_bear_loot",
+    "run_on_health":  5,
+    "speed":  135.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/polar_bear/polar_bear_east_idle.png",
+                                 "north":  "res://assets/creatures/polar_bear/polar_bear_north_idle.png",
+                                 "south":  "res://assets/creatures/polar_bear/polar_bear_south_idle.png",
+                                 "west":  "res://assets/creatures/polar_bear/polar_bear_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/polar_bear/polar_bear_east_walk1.png",
+                                              "res://assets/creatures/polar_bear/polar_bear_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/polar_bear/polar_bear_north_walk1.png",
+                                               "res://assets/creatures/polar_bear/polar_bear_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/polar_bear/polar_bear_south_walk1.png",
+                                               "res://assets/creatures/polar_bear/polar_bear_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/polar_bear/polar_bear_west_walk1.png",
+                                              "res://assets/creatures/polar_bear/polar_bear_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  10,
+    "melee_attack":  30,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/polar_bear/polar_bear_corpse_fresh.png",
+                           "res://Assets/creatures/polar_bear/polar_bear_corpse_decayed.png",
+                           "res://Assets/creatures/polar_bear/polar_bear_corpse_skeleton.png"
+                       ]
+}

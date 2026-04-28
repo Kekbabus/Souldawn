@@ -1,0 +1,7 @@
+{
+  "ability_id": "manadrain_wave",
+  "ability_type": "manadrain",
+  "area_effect": "energy_effect",
+  "area_pattern": "AREA_WAVE4",
+  "target": false
+}

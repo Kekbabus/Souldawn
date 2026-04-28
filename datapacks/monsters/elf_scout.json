@@ -1,0 +1,55 @@
+{
+  "abilities": [
+    {
+      "id": "physical_ranged",
+      "min_damage": 0,
+      "max_damage": 80,
+      "chance_percent": 15,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "ranged",
+  "armor": 10,
+  "base_health": 160.0,
+  "defense": 10,
+  "definition_id": "elf_scout",
+  "detection_range": 8,
+  "display_name": "Elf Scout",
+  "experience_reward": 75.0,
+  "immunities": {
+    "invisible": true
+  },
+  "loot_table": "elf_scout_loot",
+  "speed": 170.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/elf_scout/elf_scout_east_idle.png",
+      "north": "res://assets/creatures/elf_scout/elf_scout_north_idle.png",
+      "south": "res://assets/creatures/elf_scout/elf_scout_south_idle.png",
+      "west": "res://assets/creatures/elf_scout/elf_scout_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/elf_scout/elf_scout_east_walk1.png",
+        "res://assets/creatures/elf_scout/elf_scout_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/elf_scout/elf_scout_north_walk1.png",
+        "res://assets/creatures/elf_scout/elf_scout_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/elf_scout/elf_scout_south_walk1.png",
+        "res://assets/creatures/elf_scout/elf_scout_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/elf_scout/elf_scout_west_walk1.png",
+        "res://assets/creatures/elf_scout/elf_scout_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 20,
+  "melee_attack": 20,
+  "melee_interval": 2000
+}

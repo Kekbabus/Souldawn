@@ -1,0 +1,19 @@
+{
+  "name": "Exura San",
+  "words": "exura san",
+  "mana_cost": 60,
+  "cooldown": 1.0,
+  "type": "heal",
+  "heal_min": 50,
+  "heal_max": 100,
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 12,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.8,
+  "formula_ml_max": 3.6,
+  "formula_base_min": 10,
+  "formula_base_max": 20,
+  "caster_effect": "blueshimmer"
+}

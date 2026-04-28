@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "passive",
+    "armor":  5,
+    "base_health":  25.0,
+    "defense":  5,
+    "definition_id":  "deer",
+    "detection_range":  0,
+    "display_name":  "Deer",
+    "experience_reward":  0.0,
+    "loot_table":  "deer_loot",
+    "run_on_health":  25,
+    "speed":  150.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/deer/deer_east_idle.png",
+                                 "north":  "res://assets/creatures/deer/deer_north_idle.png",
+                                 "south":  "res://assets/creatures/deer/deer_south_idle.png",
+                                 "west":  "res://assets/creatures/deer/deer_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/deer/deer_east_walk1.png",
+                                              "res://assets/creatures/deer/deer_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/deer/deer_north_walk1.png",
+                                               "res://assets/creatures/deer/deer_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/deer/deer_south_walk1.png",
+                                               "res://assets/creatures/deer/deer_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/deer/deer_west_walk1.png",
+                                              "res://assets/creatures/deer/deer_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  10,
+    "melee_attack":  1,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/deer/deer_corpse_fresh.png",
+                           "res://Assets/creatures/deer/deer_corpse_decayed.png",
+                           "res://Assets/creatures/deer/deer_corpse_skeleton.png"
+                       ]
+}

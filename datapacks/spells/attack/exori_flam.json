@@ -1,0 +1,23 @@
+{
+  "name": "Exori Flam",
+  "words": "exori flam",
+  "mana_cost": 25,
+  "cooldown": 2.0,
+  "type": "wave",
+  "damage_min": 15,
+  "damage_max": 45,
+  "area_pattern": "AREA_BEAM1",
+  "damage_element": "fire",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 8,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.4,
+  "formula_ml_max": 2.2,
+  "formula_base_min": 8,
+  "formula_base_max": 14,
+  "projectile": "fire",
+  "caster_effect": "blueshimmer",
+  "tile_effect": "fire_effect"
+}

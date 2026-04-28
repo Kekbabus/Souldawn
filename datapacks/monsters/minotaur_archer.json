@@ -1,0 +1,53 @@
+{
+  "abilities": [
+    {
+      "id": "physical_ranged",
+      "min_damage": 0,
+      "max_damage": 80,
+      "chance_percent": 40,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "ranged",
+  "armor": 10,
+  "base_health": 100.0,
+  "defense": 10,
+  "definition_id": "minotaur_archer",
+  "detection_range": 8,
+  "display_name": "Minotaur Archer",
+  "experience_reward": 65.0,
+  "loot_table": "minotaur_archer_loot",
+  "run_on_health": 10,
+  "speed": 170.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/minotaur_archer/minotaur_archer_east_idle.png",
+      "north": "res://assets/creatures/minotaur_archer/minotaur_archer_north_idle.png",
+      "south": "res://assets/creatures/minotaur_archer/minotaur_archer_south_idle.png",
+      "west": "res://assets/creatures/minotaur_archer/minotaur_archer_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/minotaur_archer/minotaur_archer_east_walk1.png",
+        "res://assets/creatures/minotaur_archer/minotaur_archer_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/minotaur_archer/minotaur_archer_north_walk1.png",
+        "res://assets/creatures/minotaur_archer/minotaur_archer_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/minotaur_archer/minotaur_archer_south_walk1.png",
+        "res://assets/creatures/minotaur_archer/minotaur_archer_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/minotaur_archer/minotaur_archer_west_walk1.png",
+        "res://assets/creatures/minotaur_archer/minotaur_archer_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 12,
+  "melee_attack": 16,
+  "melee_interval": 2000
+}

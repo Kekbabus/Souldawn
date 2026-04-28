@@ -1,0 +1,77 @@
+{
+  "abilities": [
+    {
+      "id": "energy_ranged",
+      "min_damage": 20,
+      "max_damage": 35,
+      "chance_percent": 15,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    },
+    {
+      "id": "fire_ranged",
+      "min_damage": 5,
+      "max_damage": 45,
+      "chance_percent": 5,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "ranged",
+  "armor": 10,
+  "base_health": 115.0,
+  "defense": 10,
+  "definition_id": "orc_shaman",
+  "detection_range": 8,
+  "display_name": "Orc Shaman",
+  "experience_reward": 110.0,
+  "immunities": {
+    "invisible": true
+  },
+  "loot_table": "orc_shaman_loot",
+  "run_on_health": 15,
+  "self_healing": {
+    "min": 27,
+    "max": 43,
+    "cooldown_seconds": 2.0,
+    "chance_percent": 60
+  },
+  "speed": 180.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/orc_shaman/orc_shaman_east_idle.png",
+      "north": "res://assets/creatures/orc_shaman/orc_shaman_north_idle.png",
+      "south": "res://assets/creatures/orc_shaman/orc_shaman_south_idle.png",
+      "west": "res://assets/creatures/orc_shaman/orc_shaman_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/orc_shaman/orc_shaman_east_walk1.png",
+        "res://assets/creatures/orc_shaman/orc_shaman_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/orc_shaman/orc_shaman_north_walk1.png",
+        "res://assets/creatures/orc_shaman/orc_shaman_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/orc_shaman/orc_shaman_south_walk1.png",
+        "res://assets/creatures/orc_shaman/orc_shaman_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/orc_shaman/orc_shaman_west_walk1.png",
+        "res://assets/creatures/orc_shaman/orc_shaman_west_walk2.png"
+      ]
+    }
+  },
+  "summons": [
+    {
+      "name": "Snake",
+      "interval_ms": 2000,
+      "chance": 20
+    }
+  ],
+  "creature_type": "blood",
+  "melee_skill": 10,
+  "melee_attack": 10,
+  "melee_interval": 2000
+}

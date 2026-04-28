@@ -1,0 +1,14 @@
+{
+  "name": "Find Person",
+  "words": "exiva",
+  "mana_cost": 20,
+  "cooldown": 2.0,
+  "type": "find_person",
+  "vocations": [
+    "knight",
+    "paladin",
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 8
+}

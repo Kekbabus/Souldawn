@@ -1,0 +1,22 @@
+{
+  "name": "Exevo Gran Mas Flam",
+  "words": "exevo gran mas flam",
+  "mana_cost": 150,
+  "cooldown": 6.0,
+  "type": "area",
+  "damage_min": 60,
+  "damage_max": 180,
+  "area_pattern": "AREA_CROSS5X5",
+  "damage_element": "fire",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 30,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 5.0,
+  "formula_ml_max": 9.5,
+  "formula_base_min": 40,
+  "formula_base_max": 80,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "fire_effect"
+}

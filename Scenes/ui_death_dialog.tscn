@@ -1,0 +1,68 @@
+[gd_scene format=3]
+
+[node name="DeathDialog" type="CanvasLayer"]
+layer = 50
+
+[node name="Overlay" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.75)
+mouse_filter = 2
+
+[node name="Panel" type="PanelContainer" parent="Overlay"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -100.0
+offset_right = 160.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Overlay/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="Overlay/Panel/VBox"]
+layout_mode = 2
+text = "You are dead."
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.9, 0.15, 0.15, 1)
+
+[node name="Message" type="Label" parent="Overlay/Panel/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "You lost 0 experience points."
+horizontal_alignment = 1
+autowrap_mode = 2
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.85, 0.85, 0.85, 1)
+
+[node name="Spacer" type="Control" parent="Overlay/Panel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 8)
+
+[node name="ButtonRow" type="HBoxContainer" parent="Overlay/Panel/VBox"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 20
+
+[node name="OkButton" type="Button" parent="Overlay/Panel/VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(100, 32)
+text = "Ok"
+
+[node name="CancelButton" type="Button" parent="Overlay/Panel/VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(100, 32)
+text = "Cancel"

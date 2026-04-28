@@ -1,0 +1,46 @@
+{
+  "abilities": [],
+  "ai_behavior": "melee",
+  "armor": 30,
+  "base_health": 245.0,
+  "defense": 30,
+  "definition_id": "dwarf_guard",
+  "detection_range": 8,
+  "display_name": "Dwarf Guard",
+  "experience_reward": 165.0,
+  "immunities": {
+    "invisible": true
+  },
+  "loot_table": "dwarf_guard_loot",
+  "speed": 205.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/dwarf_guard/dwarf_guard_east_idle.png",
+      "north": "res://assets/creatures/dwarf_guard/dwarf_guard_north_idle.png",
+      "south": "res://assets/creatures/dwarf_guard/dwarf_guard_south_idle.png",
+      "west": "res://assets/creatures/dwarf_guard/dwarf_guard_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/dwarf_guard/dwarf_guard_east_walk1.png",
+        "res://assets/creatures/dwarf_guard/dwarf_guard_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/dwarf_guard/dwarf_guard_north_walk1.png",
+        "res://assets/creatures/dwarf_guard/dwarf_guard_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/dwarf_guard/dwarf_guard_south_walk1.png",
+        "res://assets/creatures/dwarf_guard/dwarf_guard_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/dwarf_guard/dwarf_guard_west_walk1.png",
+        "res://assets/creatures/dwarf_guard/dwarf_guard_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 30,
+  "melee_attack": 70,
+  "melee_interval": 2000
+}

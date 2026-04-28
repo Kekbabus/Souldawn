@@ -1,0 +1,12 @@
+{
+  "name": "Conjure Bolt",
+  "words": "exevo con mort",
+  "mana_cost": 140,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "bolt",
+  "conjure_count": 10,
+  "reagent_id": "",
+  "vocations": ["paladin"],
+  "min_level": 0
+}

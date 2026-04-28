@@ -1,0 +1,59 @@
+{
+	"abilities":  [
+					  {
+						  "id":  "fire_ranged",
+						  "min_damage":  30,
+						  "max_damage":  75,
+						  "chance_percent":  20,
+						  "cooldown_seconds":  2.0,
+						  "range":  7
+					  }
+				  ],
+	"ai_behavior":  "ranged",
+	"armor":  15,
+	"base_health":  300.0,
+	"defense":  15,
+	"definition_id":  "witch",
+	"detection_range":  8,
+	"display_name":  "Witch",
+	"experience_reward":  120.0,
+	"immunities":  {
+					   "invisible":  true,
+					   "energy":  true
+				   },
+	"loot_table":  "witch_loot",
+	"run_on_health":  30,
+	"speed":  195.0,
+	"sprites":  {
+					"idle":  {
+								 "east":  "res://assets/creatures/witch/witch_east_idle.png",
+								 "north":  "res://assets/creatures/witch/witch_north_idle.png",
+								 "south":  "res://assets/creatures/witch/witch_south_idle.png",
+								 "west":  "res://assets/creatures/witch/witch_west_idle.png"
+							 },
+					"walk":  {
+								 "east":  [
+                                              "res://assets/creatures/witch/witch_east_walk1.png"
+										  ],
+								 "north":  [
+                                               "res://assets/creatures/witch/witch_north_walk1.png"
+										   ],
+								 "south":  [
+											   "res://assets/creatures/witch/witch_south_walk1.png",
+                                               "res://assets/creatures/witch/witch_south_walk2.png"
+										   ],
+								 "west":  [
+                                              "res://assets/creatures/witch/witch_west_walk1.png"
+										  ]
+							 }
+				},
+	"creature_type":  "blood",
+	"melee_skill":  10,
+	"melee_attack":  14,
+	"melee_interval":  2000,
+	"corpse_sprites":  [
+						   "res://Assets/creatures/witch/witch_corpse_fresh.png",
+						   "res://Assets/creatures/witch/witch_corpse_decayed.png",
+                           "res://Assets/creatures/witch/witch_corpse_skeleton.png"
+					   ]
+}

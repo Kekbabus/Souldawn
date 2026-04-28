@@ -1,0 +1,9 @@
+{
+  "table_id": "fire_devil_loot",
+  "entries": [
+    { "item_definition_id": "scimitar", "weight": 50, "chance": 3.0, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "double_axe", "weight": 50, "chance": 1.5, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "purple_gem", "weight": 20, "chance": 0.3, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "guardian_shield", "weight": 5, "chance": 0.21, "min_quantity": 1, "max_quantity": 1 }
+  ]
+}

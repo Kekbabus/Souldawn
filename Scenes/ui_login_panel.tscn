@@ -1,0 +1,68 @@
+[gd_scene format=3]
+
+[node name="LoginPanel" type="PanelContainer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -140.0
+offset_right = 150.0
+offset_bottom = 140.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Souldawn"
+horizontal_alignment = 1
+
+[node name="UsernameLabel" type="Label" parent="VBox"]
+layout_mode = 2
+text = "Username:"
+
+[node name="UsernameInput" type="LineEdit" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "username"
+
+[node name="PasswordLabel" type="Label" parent="VBox"]
+layout_mode = 2
+text = "Password:"
+
+[node name="PasswordInput" type="LineEdit" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "password"
+secret = true
+
+[node name="ButtonRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LoginBtn" type="Button" parent="VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Login"
+
+[node name="RegisterBtn" type="Button" parent="VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Register"
+
+[node name="ExitBtn" type="Button" parent="VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Exit"
+
+[node name="StatusLabel" type="Label" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+autowrap_mode = 2

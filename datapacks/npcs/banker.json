@@ -1,0 +1,24 @@
+{
+  "definition_id": "banker",
+  "display_name": "Banker",
+  "outfit_id": "noble_male",
+  "sprite_id": 0,
+  "walkable": false,
+  "wander_radius": 0,
+  "dialogue_tree": {
+    "greeting": "Welcome to the Tibian Bank! I can {change gold} into platinum coins, or {change platinum} into crystal coins. How may I help you?",
+    "farewell": "Good bye! Visit us again!",
+    "keywords": {
+      "name": { "text": "I am the Banker. I manage the local branch of the Tibian Bank." },
+      "job": { "text": "I exchange coins for adventurers. Say {change gold} to convert gold coins to platinum, or {change platinum} to convert platinum to crystal coins." },
+      "change gold": {
+        "text": "How many platinum coins would you like to receive? Each platinum coin costs 100 gold coins. Tell me a number.",
+        "action": "bank_start_change_gold"
+      },
+      "change platinum": {
+        "text": "How many crystal coins would you like to receive? Each crystal coin costs 100 platinum coins. Tell me a number.",
+        "action": "bank_start_change_platinum"
+      }
+    }
+  }
+}

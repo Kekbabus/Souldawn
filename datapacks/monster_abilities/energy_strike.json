@@ -1,0 +1,7 @@
+{
+  "ability_id": "energy_strike",
+  "ability_type": "energy",
+  "area_effect": "energy_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": false
+}

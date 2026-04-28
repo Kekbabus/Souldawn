@@ -1,0 +1,19 @@
+{
+  "name": "Exura Gran",
+  "words": "exura gran",
+  "mana_cost": 50,
+  "cooldown": 1.0,
+  "type": "heal",
+  "heal_min": 60,
+  "heal_max": 120,
+  "vocations": [
+    "druid"
+  ],
+  "min_level": 11,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 3.2,
+  "formula_ml_max": 5.4,
+  "formula_base_min": 20,
+  "formula_base_max": 40,
+  "caster_effect": "blueshimmer"
+}

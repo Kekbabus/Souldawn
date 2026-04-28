@@ -1,0 +1,12 @@
+{
+  "name": "Light Magic Missile Rune",
+  "words": "adori",
+  "mana_cost": 120,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "light_magic_missile_rune",
+  "conjure_count": 10,
+  "reagent_id": "blankrune",
+  "vocations": ["sorcerer", "druid"],
+  "min_level": 0
+}

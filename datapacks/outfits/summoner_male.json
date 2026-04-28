@@ -1,0 +1,64 @@
+{
+  "base_sprites": {
+    "east": {
+      "idle": "res://assets/outfits/summoner_male/summoner_male_east_idle.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/summoner_male_east_walk1.png",
+        "res://assets/outfits/summoner_male/summoner_male_east_walk2.png"
+      ]
+    },
+    "north": {
+      "idle": "res://assets/outfits/summoner_male/summoner_male_north_idle.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/summoner_male_north_walk1.png",
+        "res://assets/outfits/summoner_male/summoner_male_north_walk2.png"
+      ]
+    },
+    "south": {
+      "idle": "res://assets/outfits/summoner_male/summoner_male_south_idle.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/summoner_male_south_walk1.png",
+        "res://assets/outfits/summoner_male/summoner_male_south_walk2.png"
+      ]
+    },
+    "west": {
+      "idle": "res://assets/outfits/summoner_male/summoner_male_west_idle.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/summoner_male_west_walk1.png",
+        "res://assets/outfits/summoner_male/summoner_male_west_walk2.png"
+      ]
+    }
+  },
+  "color_sprites": {
+    "east": {
+      "idle": "res://assets/outfits/summoner_male/color/summoner_male_east_idle_color.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/color/summoner_male_east_walk1_color.png",
+        "res://assets/outfits/summoner_male/color/summoner_male_east_walk2_color.png"
+      ]
+    },
+    "north": {
+      "idle": "res://assets/outfits/summoner_male/color/summoner_male_north_idle_color.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/color/summoner_male_north_walk1_color.png",
+        "res://assets/outfits/summoner_male/color/summoner_male_north_walk2_color.png"
+      ]
+    },
+    "south": {
+      "idle": "res://assets/outfits/summoner_male/color/summoner_male_south_idle_color.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/color/summoner_male_south_walk1_color.png",
+        "res://assets/outfits/summoner_male/color/summoner_male_south_walk2_color.png"
+      ]
+    },
+    "west": {
+      "idle": "res://assets/outfits/summoner_male/color/summoner_male_west_idle_color.png",
+      "walk": [
+        "res://assets/outfits/summoner_male/color/summoner_male_west_walk1_color.png",
+        "res://assets/outfits/summoner_male/color/summoner_male_west_walk2_color.png"
+      ]
+    }
+  },
+  "display_name": "Summoner Male",
+  "outfit_id": "summoner_male"
+}

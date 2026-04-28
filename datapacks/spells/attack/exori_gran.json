@@ -1,0 +1,22 @@
+{
+  "name": "Exori Gran",
+  "words": "exori gran",
+  "mana_cost": 70,
+  "cooldown": 4.0,
+  "type": "wave",
+  "damage_min": 30,
+  "damage_max": 80,
+  "area_pattern": "AREA_SQUARE1X1",
+  "damage_element": "physical",
+  "vocations": [
+    "knight"
+  ],
+  "min_level": 20,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 3.0,
+  "formula_ml_max": 5.5,
+  "formula_base_min": 30,
+  "formula_base_max": 60,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "hit_physical"
+}

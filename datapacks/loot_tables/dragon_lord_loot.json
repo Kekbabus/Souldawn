@@ -1,0 +1,23 @@
+{
+  "table_id": "dragon_lord_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 33.75,
+      "min_quantity": 1,
+      "max_quantity": 100
+    },
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 33.75,
+      "min_quantity": 1,
+      "max_quantity": 100
+    },
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 33.75,
+      "min_quantity": 1,
+      "max_quantity": 45
+    }
+  ]
+}

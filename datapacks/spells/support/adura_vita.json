@@ -1,0 +1,12 @@
+{
+  "name": "Ultimate Healing Rune",
+  "words": "adura vita",
+  "mana_cost": 400,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "ultimate_healing_rune",
+  "conjure_count": 2,
+  "reagent_id": "blankrune",
+  "vocations": ["druid"],
+  "min_level": 4
+}

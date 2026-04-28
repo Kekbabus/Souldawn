@@ -1,0 +1,79 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "fire_area",
+                          "min_damage":  60,
+                          "max_damage":  140,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "fire_wave",
+                          "min_damage":  100,
+                          "max_damage":  170,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  30,
+    "base_health":  1000.0,
+    "defense":  30,
+    "definition_id":  "dragon",
+    "detection_range":  8,
+    "display_name":  "Dragon",
+    "experience_reward":  700.0,
+    "immunities":  {
+                       "paralyze":  true,
+                       "invisible":  true,
+                       "fire":  true
+                   },
+    "loot_table":  "dragon_loot",
+    "run_on_health":  300,
+    "self_healing":  {
+                         "min":  40,
+                         "max":  70,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  185.0,
+    "targetchange_interval":  4000,
+    "targetchange_chance":  10,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/dragon/dragon_east_idle.png",
+                                 "north":  "res://assets/creatures/dragon/dragon_north_idle.png",
+                                 "south":  "res://assets/creatures/dragon/dragon_south_idle.png",
+                                 "west":  "res://assets/creatures/dragon/dragon_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/dragon/dragon_east_walk1.png",
+                                              "res://assets/creatures/dragon/dragon_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/dragon/dragon_north_walk1.png",
+                                               "res://assets/creatures/dragon/dragon_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/dragon/dragon_south_walk1.png",
+                                               "res://assets/creatures/dragon/dragon_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/dragon/dragon_west_walk1.png",
+                                              "res://assets/creatures/dragon/dragon_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  50,
+    "melee_attack":  40,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/dragon/dragon_corpse_fresh.png",
+                           "res://Assets/creatures/dragon/dragon_corpse_decayed.png",
+                           "res://Assets/creatures/dragon/dragon_corpse_skeleton.png"
+                       ]
+}

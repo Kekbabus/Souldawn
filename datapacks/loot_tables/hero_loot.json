@@ -1,0 +1,17 @@
+{
+  "table_id": "hero_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 59.5,
+      "min_quantity": 1,
+      "max_quantity": 100
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 8.2,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Conjure Sniper Arrow",
+  "words": "exevo con hur",
+  "mana_cost": 160,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "sniper_arrow",
+  "conjure_count": 10,
+  "reagent_id": "",
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 24
+}

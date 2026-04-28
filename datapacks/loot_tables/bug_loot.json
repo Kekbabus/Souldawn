@@ -1,0 +1,11 @@
+{
+  "table_id": "bug_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 51.17,
+      "min_quantity": 1,
+      "max_quantity": 6
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ability_id": "lifedrain_ranged",
+  "ability_type": "lifedrain",
+  "area_effect": "death_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": true,
+  "projectile": "death"
+}

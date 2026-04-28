@@ -1,0 +1,15 @@
+{
+  "name": "Poison Field",
+  "words": "adevo grav pox",
+  "mana_cost": 200,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "poison_field_rune",
+  "conjure_count": 6,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 14
+}

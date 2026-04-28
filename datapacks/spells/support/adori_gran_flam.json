@@ -1,0 +1,12 @@
+{
+  "name": "Great Fireball Rune",
+  "words": "adori gran flam",
+  "mana_cost": 530,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "great_fireball_rune",
+  "conjure_count": 4,
+  "reagent_id": "blankrune",
+  "vocations": ["sorcerer"],
+  "min_level": 4
+}

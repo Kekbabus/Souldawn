@@ -1,0 +1,42 @@
+{
+  "definition_id": "oracle",
+  "display_name": "The Oracle",
+  "npc_type": "oracle",
+  "outfit_id": "mage_female",
+  "dialogue_tree": {
+    "greeting": "Welcome, young adventurer. I can sense your potential. If you have reached level 8, I can guide you to your destiny. What vocation calls to you? Say {knight}, {paladin}, {sorcerer}, or {druid}.",
+    "farewell": "May your path be true. Farewell.",
+    "keywords": {
+      "knight": {
+        "text": "A Knight is a master of melee combat, with the highest health and carrying capacity. Do you wish to become a Knight? Say {yes} to confirm.",
+        "action": "confirm_vocation",
+        "action_data": "knight"
+      },
+      "paladin": {
+        "text": "A Paladin is a holy warrior skilled in distance fighting and moderate magic. Do you wish to become a Paladin? Say {yes} to confirm.",
+        "action": "confirm_vocation",
+        "action_data": "paladin"
+      },
+      "sorcerer": {
+        "text": "A Sorcerer wields devastating offensive magic, with the highest mana pool. Do you wish to become a Sorcerer? Say {yes} to confirm.",
+        "action": "confirm_vocation",
+        "action_data": "sorcerer"
+      },
+      "druid": {
+        "text": "A Druid is a master of nature and healing magic, with great mana reserves. Do you wish to become a Druid? Say {yes} to confirm.",
+        "action": "confirm_vocation",
+        "action_data": "druid"
+      },
+      "yes": {
+        "text": "",
+        "action": "apply_vocation"
+      },
+      "vocation": {
+        "text": "I can guide you to become a {knight}, {paladin}, {sorcerer}, or {druid}. Which path interests you?"
+      },
+      "job": {
+        "text": "I am The Oracle. I guide young adventurers to their vocations when they reach level 8."
+      }
+    }
+  }
+}

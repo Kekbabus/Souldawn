@@ -1,0 +1,8 @@
+{
+  "ability_id": "physical_area",
+  "ability_type": "physical",
+  "area_effect": "hit_physical",
+  "area_pattern": "AREA_CIRCLE2X2",
+  "target": true,
+  "projectile": "physical"
+}

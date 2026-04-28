@@ -1,0 +1,14 @@
+{
+  "name": "Energy Bomb",
+  "words": "adevo mas vis",
+  "mana_cost": 880,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "energy_bomb_rune",
+  "conjure_count": 4,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 37
+}

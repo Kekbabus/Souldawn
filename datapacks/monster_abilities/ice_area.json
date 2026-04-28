@@ -1,0 +1,8 @@
+{
+  "ability_id": "ice_area",
+  "ability_type": "ice",
+  "area_effect": "energy_effect",
+  "area_pattern": "AREA_CIRCLE2X2",
+  "target": true,
+  "projectile": "ice"
+}

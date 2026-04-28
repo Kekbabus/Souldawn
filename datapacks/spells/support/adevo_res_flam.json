@@ -1,0 +1,15 @@
+{
+  "name": "Soulfire",
+  "words": "adevo res flam",
+  "mana_cost": 600,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "soulfire_rune",
+  "conjure_count": 6,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 27
+}

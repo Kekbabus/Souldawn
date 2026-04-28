@@ -1,0 +1,89 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "physical_strike",
+                          "min_damage":  10,
+                          "max_damage":  120,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0
+                      },
+                      {
+                          "id":  "earth_ranged",
+                          "min_damage":  20,
+                          "max_damage":  120,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "ranged",
+    "armor":  25,
+    "base_health":  580.0,
+    "defense":  25,
+    "definition_id":  "necromancer",
+    "detection_range":  8,
+    "display_name":  "Necromancer",
+    "experience_reward":  580.0,
+    "immunities":  {
+                       "invisible":  true,
+                       "earth":  true,
+                       "drown":  true
+                   },
+    "loot_table":  "necromancer_loot",
+    "self_healing":  {
+                         "min":  50,
+                         "max":  80,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  25
+                     },
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/necromancer/necromancer_east_idle.png",
+                                 "north":  "res://assets/creatures/necromancer/necromancer_north_idle.png",
+                                 "south":  "res://assets/creatures/necromancer/necromancer_south_idle.png",
+                                 "west":  "res://assets/creatures/necromancer/necromancer_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/necromancer/necromancer_east_walk1.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/necromancer/necromancer_north_walk1.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/necromancer/necromancer_south_walk1.png",
+                                               "res://assets/creatures/necromancer/necromancer_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/necromancer/necromancer_west_walk1.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "Ghoul",
+                        "interval_ms":  2000,
+                        "chance":  15
+                    },
+                    {
+                        "name":  "Ghost",
+                        "interval_ms":  2000,
+                        "chance":  5
+                    },
+                    {
+                        "name":  "Mummy",
+                        "interval_ms":  2000,
+                        "chance":  5
+                    }
+                ],
+    "creature_type":  "blood",
+    "melee_skill":  40,
+    "melee_attack":  25,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/necromancer/necromancer_corpse_fresh.png",
+                           "res://Assets/creatures/necromancer/necromancer_corpse_decayed.png",
+                           "res://Assets/creatures/necromancer/necromancer_corpse_skeleton.png"
+                       ]
+}

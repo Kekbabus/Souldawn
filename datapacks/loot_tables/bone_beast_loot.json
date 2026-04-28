@@ -1,0 +1,8 @@
+{
+  "table_id": "bone_beast_loot",
+  "entries": [
+    { "item_definition_id": "gold_coin", "weight": 100, "chance": 30.0, "min_quantity": 1, "max_quantity": 90 },
+    { "item_definition_id": "plate_armor", "weight": 50, "chance": 8.0, "min_quantity": 1, "max_quantity": 1 },
+    { "item_definition_id": "bone_shield", "weight": 50, "chance": 2.0, "min_quantity": 1, "max_quantity": 1 }
+  ]
+}

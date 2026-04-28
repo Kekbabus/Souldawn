@@ -1,0 +1,12 @@
+{
+  "name": "Sudden Death Rune",
+  "words": "adori vita vis",
+  "mana_cost": 880,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "sudden_death_rune",
+  "conjure_count": 2,
+  "reagent_id": "blankrune",
+  "vocations": ["sorcerer"],
+  "min_level": 15
+}

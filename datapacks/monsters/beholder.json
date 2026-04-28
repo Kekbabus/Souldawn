@@ -1,0 +1,117 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "energy_ranged",
+                          "min_damage":  15,
+                          "max_damage":  45,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "fire_ranged",
+                          "min_damage":  25,
+                          "max_damage":  45,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  30,
+                          "max_damage":  50,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "poison_ranged",
+                          "min_damage":  5,
+                          "max_damage":  45,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  5,
+                          "max_damage":  50,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "lifedrain_ranged",
+                          "min_damage":  0,
+                          "max_damage":  45,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "manadrain_ranged",
+                          "min_damage":  5,
+                          "max_damage":  35,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "ranged",
+    "armor":  10,
+    "base_health":  260.0,
+    "defense":  10,
+    "definition_id":  "beholder",
+    "detection_range":  8,
+    "display_name":  "Beholder",
+    "experience_reward":  170.0,
+    "immunities":  {
+                       "invisible":  true,
+                       "earth":  true,
+                       "lifedrain":  true
+                   },
+    "loot_table":  "beholder_loot",
+    "speed":  170.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/beholder/beholder_east_idle.png",
+                                 "north":  "res://assets/creatures/beholder/beholder_north_idle.png",
+                                 "south":  "res://assets/creatures/beholder/beholder_south_idle.png",
+                                 "west":  "res://assets/creatures/beholder/beholder_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/beholder/beholder_east_walk1.png",
+                                              "res://assets/creatures/beholder/beholder_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/beholder/beholder_north_walk1.png",
+                                               "res://assets/creatures/beholder/beholder_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/beholder/beholder_south_walk1.png",
+                                               "res://assets/creatures/beholder/beholder_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/beholder/beholder_west_walk1.png",
+                                              "res://assets/creatures/beholder/beholder_west_walk2.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "Skeleton",
+                        "interval_ms":  2000,
+                        "chance":  20
+                    }
+                ],
+    "creature_type":  "undead",
+    "melee_skill":  10,
+    "melee_attack":  5,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/beholder/beholder_corpse_fresh.png",
+                           "res://Assets/creatures/beholder/beholder_corpse_decayed.png",
+                           "res://Assets/creatures/beholder/beholder_corpse_skeleton.png"
+                       ]
+}

@@ -1,0 +1,187 @@
+[gd_scene load_steps=8 format=3]
+
+[sub_resource type="StyleBoxFlat" id="style_combat"]
+bg_color = Color(0.8, 0.2, 0.2, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="style_haste"]
+bg_color = Color(0.2, 0.8, 0.2, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="style_burning"]
+bg_color = Color(1.0, 0.4, 0.0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="style_poisoned"]
+bg_color = Color(0.0, 0.8, 0.0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="style_paralysed"]
+bg_color = Color(0.8, 0.8, 0.0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="style_electrocuted"]
+bg_color = Color(0.3, 0.5, 1.0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="style_magic_shield"]
+bg_color = Color(0.2, 0.4, 0.9, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="StatusBar" type="HBoxContainer"]
+theme_override_constants/separation = 2
+alignment = 1
+
+[node name="combat" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Combat"
+theme_override_styles/panel = SubResource("style_combat")
+
+[node name="Label" type="Label" parent="combat"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "⚔"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="haste" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Haste"
+theme_override_styles/panel = SubResource("style_haste")
+
+[node name="Label" type="Label" parent="haste"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "⚡"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="burning" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Burning"
+theme_override_styles/panel = SubResource("style_burning")
+
+[node name="Label" type="Label" parent="burning"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "🔥"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="poisoned" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Poisoned"
+theme_override_styles/panel = SubResource("style_poisoned")
+
+[node name="Label" type="Label" parent="poisoned"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "☠"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="paralysed" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Paralysed"
+theme_override_styles/panel = SubResource("style_paralysed")
+
+[node name="Label" type="Label" parent="paralysed"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "⸙"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="electrocuted" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Electrocuted"
+theme_override_styles/panel = SubResource("style_electrocuted")
+
+[node name="Label" type="Label" parent="electrocuted"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "⚡"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="magic_shield" type="PanelContainer" parent="."]
+layout_mode = 2
+custom_minimum_size = Vector2(20, 20)
+visible = false
+tooltip_text = "Magic Shield"
+theme_override_styles/panel = SubResource("style_magic_shield")
+
+[node name="Label" type="Label" parent="magic_shield"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "🛡"
+horizontal_alignment = 1
+vertical_alignment = 1

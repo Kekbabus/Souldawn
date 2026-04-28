@@ -1,0 +1,42 @@
+{
+  "definition_id": "seymour",
+  "display_name": "Seymour",
+  "outfit_id": "knight_male",
+  "sprite_id": 0,
+  "position": { "x": 101, "y": 99, "z": 7 },
+  "walkable": false,
+  "dialogue_tree": {
+    "greeting": "Greetings, adventurer. I am Seymour, the academy master. I have a {quest} for you if you're brave enough.",
+    "farewell": "Good luck out there.",
+    "keywords": {
+      "quest": {
+        "text": "The rats in the sewers below have become a nuisance. Could you kill 5 of them for me? Say {accept} to take the quest.",
+        "keywords": {
+          "accept": { "text": "Excellent! Go to the sewers and slay 5 rats. Return to me when you're done.", "action": "start_quest:rat_hunt" }
+        }
+      },
+      "report": {
+        "text": "Let me check... Yes, you've done it! Here is your reward. Well done, adventurer.",
+        "action": "complete_quest:rat_hunt"
+      },
+      "name": { "text": "I am Seymour, headmaster of the Rookgaard Academy." },
+      "job": { "text": "I teach newcomers the ways of this world. I also have a {quest} for the brave." }
+    }
+  },
+  "quests": [
+    {
+      "quest_id": "rat_hunt",
+      "display_name": "Rat Hunt",
+      "description": "Kill 5 rats in the Rookgaard sewers.",
+      "objectives": [
+        { "type": "kill", "target": "rat", "count": 5 }
+      ],
+      "rewards": {
+        "experience": 100,
+        "items": [
+          { "item_id": "gold_coin", "quantity": 50 }
+        ]
+      }
+    }
+  ]
+}

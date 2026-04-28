@@ -1,0 +1,87 @@
+[gd_scene format=3]
+
+[node name="OutfitWindow" type="PanelContainer"]
+custom_minimum_size = Vector2(340, 320)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+theme_override_constants/separation = 6
+
+[node name="TitleBar" type="HBoxContainer" parent="VBox"]
+theme_override_constants/separation = 4
+
+[node name="TitleLabel" type="Label" parent="VBox/TitleBar"]
+text = "Outfit"
+size_flags_horizontal = 3
+
+[node name="CloseBtn" type="Button" parent="VBox/TitleBar"]
+custom_minimum_size = Vector2(24, 24)
+text = "X"
+
+[node name="Content" type="HBoxContainer" parent="VBox"]
+theme_override_constants/separation = 8
+
+[node name="PreviewPanel" type="PanelContainer" parent="VBox/Content"]
+custom_minimum_size = Vector2(80, 80)
+
+[node name="PreviewSprite" type="TextureRect" parent="VBox/Content/PreviewPanel"]
+layout_mode = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="RightSide" type="VBoxContainer" parent="VBox/Content"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="OutfitRow" type="HBoxContainer" parent="VBox/Content/RightSide"]
+theme_override_constants/separation = 4
+
+[node name="PrevOutfit" type="Button" parent="VBox/Content/RightSide/OutfitRow"]
+text = "<"
+
+[node name="OutfitName" type="Label" parent="VBox/Content/RightSide/OutfitRow"]
+size_flags_horizontal = 3
+horizontal_alignment = 1
+text = "Citizen"
+
+[node name="NextOutfit" type="Button" parent="VBox/Content/RightSide/OutfitRow"]
+text = ">"
+
+[node name="PartLabel" type="Label" parent="VBox/Content/RightSide"]
+text = "Head"
+
+[node name="PartRow" type="HBoxContainer" parent="VBox/Content/RightSide"]
+theme_override_constants/separation = 4
+
+[node name="HeadBtn" type="Button" parent="VBox/Content/RightSide/PartRow"]
+text = "Head"
+toggle_mode = true
+button_pressed = true
+
+[node name="BodyBtn" type="Button" parent="VBox/Content/RightSide/PartRow"]
+text = "Body"
+toggle_mode = true
+
+[node name="LegsBtn" type="Button" parent="VBox/Content/RightSide/PartRow"]
+text = "Legs"
+toggle_mode = true
+
+[node name="FeetBtn" type="Button" parent="VBox/Content/RightSide/PartRow"]
+text = "Feet"
+toggle_mode = true
+
+[node name="ColorGrid" type="GridContainer" parent="VBox"]
+columns = 19
+theme_override_constants/h_separation = 1
+theme_override_constants/v_separation = 1
+
+[node name="ButtonRow" type="HBoxContainer" parent="VBox"]
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="OkBtn" type="Button" parent="VBox/ButtonRow"]
+custom_minimum_size = Vector2(60, 0)
+text = "OK"
+
+[node name="CancelBtn" type="Button" parent="VBox/ButtonRow"]
+custom_minimum_size = Vector2(60, 0)
+text = "Cancel"

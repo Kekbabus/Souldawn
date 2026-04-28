@@ -1,0 +1,69 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_strike",
+                          "min_damage":  15,
+                          "max_damage":  27,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  15,
+    "base_health":  100.0,
+    "defense":  15,
+    "definition_id":  "ghoul",
+    "detection_range":  8,
+    "display_name":  "Ghoul",
+    "experience_reward":  85.0,
+    "immunities":  {
+                       "drown":  true,
+                       "lifedrain":  true,
+                       "drunk":  true,
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "ghoul_loot",
+    "self_healing":  {
+                         "min":  9,
+                         "max":  15,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  5
+                     },
+    "speed":  170.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/ghoul/ghoul_east_idle.png",
+                                 "north":  "res://assets/creatures/ghoul/ghoul_north_idle.png",
+                                 "south":  "res://assets/creatures/ghoul/ghoul_south_idle.png",
+                                 "west":  "res://assets/creatures/ghoul/ghoul_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/ghoul/ghoul_east_walk1.png",
+                                              "res://assets/creatures/ghoul/ghoul_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/ghoul/ghoul_north_walk1.png",
+                                               "res://assets/creatures/ghoul/ghoul_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/ghoul/ghoul_south_walk1.png",
+                                               "res://assets/creatures/ghoul/ghoul_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/ghoul/ghoul_west_walk1.png",
+                                              "res://assets/creatures/ghoul/ghoul_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "undead",
+    "melee_skill":  35,
+    "melee_attack":  25,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/ghoul/ghoul_corpse_fresh.png",
+                           "res://Assets/creatures/ghoul/ghoul_corpse_decayed.png",
+                           "res://Assets/creatures/ghoul/ghoul_corpse_skeleton.png"
+                       ]
+}

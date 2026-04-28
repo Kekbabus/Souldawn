@@ -1,0 +1,17 @@
+{
+  "table_id": "larva_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 63.0,
+      "min_quantity": 1,
+      "max_quantity": 15
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 14.67,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

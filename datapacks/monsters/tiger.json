@@ -1,0 +1,50 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  15,
+    "base_health":  75.0,
+    "defense":  15,
+    "definition_id":  "tiger",
+    "detection_range":  8,
+    "display_name":  "Tiger",
+    "experience_reward":  40.0,
+    "loot_table":  "tiger_loot",
+    "speed":  210.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/tiger/tiger_east_idle.png",
+                                 "north":  "res://assets/creatures/tiger/tiger_north_idle.png",
+                                 "south":  "res://assets/creatures/tiger/tiger_south_idle.png",
+                                 "west":  "res://assets/creatures/tiger/tiger_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/tiger/tiger_east_walk1.png",
+                                              "res://assets/creatures/tiger/tiger_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/tiger/tiger_north_walk1.png",
+                                               "res://assets/creatures/tiger/tiger_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/tiger/tiger_south_walk1.png",
+                                               "res://assets/creatures/tiger/tiger_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/tiger/tiger_west_walk1.png",
+                                              "res://assets/creatures/tiger/tiger_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  30,
+    "melee_attack":  20,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/tiger/tiger_corpse_fresh.png",
+                           "res://Assets/creatures/tiger/tiger_corpse_decayed.png",
+                           "res://Assets/creatures/tiger/tiger_corpse_skeleton.png"
+                       ]
+}

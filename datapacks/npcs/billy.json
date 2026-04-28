@@ -1,0 +1,35 @@
+{
+  "definition_id": "billy",
+  "display_name": "Billy",
+  "outfit_id": "citizen_male",
+  "sprite_id": 0,
+  "position": { "x": 102, "y": 100, "z": 7 },
+  "walkable": false,
+  "wander_radius": 3,
+  "dialogue_tree": {
+    "greeting": "Hello there! I'm Billy, the local shopkeeper. Want to see my {trade} goods?",
+    "farewell": "Come back anytime!",
+    "keywords": {
+      "trade": { "text": "Sure, let me show you what I have.", "action": "open_shop" },
+      "name": { "text": "I'm Billy! I run the general store here in Rookgaard." },
+      "job": { "text": "I buy and sell equipment and supplies. Just say {trade} if you're interested." }
+    }
+  },
+  "shop_offers": [
+    { "item_id": "sword", "buy_price": 25, "sell_price": 10 },
+    { "item_id": "club", "buy_price": 5, "sell_price": 1 },
+    { "item_id": "axe", "buy_price": 20, "sell_price": 7 },
+    { "item_id": "mace", "buy_price": 30, "sell_price": 12 },
+    { "item_id": "wooden_shield", "buy_price": 15, "sell_price": 5 },
+    { "item_id": "leather_helmet", "buy_price": 12, "sell_price": 4 },
+    { "item_id": "leather_armor", "buy_price": 25, "sell_price": 9 },
+    { "item_id": "leather_legs", "buy_price": 18, "sell_price": 6 },
+    { "item_id": "chain_armor", "buy_price": 70, "sell_price": 25 },
+    { "item_id": "sandals", "buy_price": 5, "sell_price": 2 },
+    { "item_id": "rope", "buy_price": 50, "sell_price": 15 },
+    { "item_id": "shovel", "buy_price": 50, "sell_price": 15 },
+    { "item_id": "torch", "buy_price": 2, "sell_price": 0 },
+    { "item_id": "fishing_rod", "buy_price": 150, "sell_price": 40 },
+    { "item_id": "backpack", "buy_price": 20, "sell_price": 5 }
+  ]
+}

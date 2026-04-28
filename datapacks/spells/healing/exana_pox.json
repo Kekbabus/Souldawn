@@ -1,0 +1,15 @@
+{
+  "name": "Cure Poison",
+  "words": "exana pox",
+  "mana_cost": 30,
+  "cooldown": 1.0,
+  "type": "cure_condition",
+  "cure_condition": "poisoned",
+  "vocations": [
+    "knight",
+    "paladin",
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 10
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Poison Bomb",
+  "words": "adevo mas pox",
+  "mana_cost": 520,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "poison_bomb_rune",
+  "conjure_count": 4,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "druid"
+  ],
+  "min_level": 25
+}

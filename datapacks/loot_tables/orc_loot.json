@@ -1,0 +1,17 @@
+{
+  "table_id": "orc_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 84.81,
+      "min_quantity": 1,
+      "max_quantity": 14
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 10.16,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

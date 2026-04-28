@@ -1,0 +1,71 @@
+{
+	"abilities":  [
+					  {
+						  "id":  "lifedrain_strike",
+						  "min_damage":  50,
+						  "max_damage":  200,
+						  "chance_percent":  20,
+						  "cooldown_seconds":  2.0
+					  }
+				  ],
+	"ai_behavior":  "flee",
+	"armor":  30,
+	"base_health":  475.0,
+	"defense":  30,
+	"definition_id":  "vampire",
+	"detection_range":  8,
+	"display_name":  "Vampire",
+	"experience_reward":  305.0,
+	"immunities":  {
+					   "lifedrain":  true,
+					   "paralyze":  true,
+					   "invisible":  true,
+					   "earth":  true,
+					   "drown":  true,
+					   "drunk":  true
+				   },
+	"loot_table":  "vampire_loot",
+	"run_on_health":  30,
+	"self_healing":  {
+						 "min":  15,
+						 "max":  25,
+						 "cooldown_seconds":  2.0,
+						 "chance_percent":  15
+					 },
+	"speed":  220.0,
+	"sprites":  {
+					"idle":  {
+								 "east":  "res://assets/creatures/vampire/vampire_east_idle.png",
+								 "north":  "res://assets/creatures/vampire/vampire_north_idle.png",
+								 "south":  "res://assets/creatures/vampire/vampire_south_idle.png",
+								 "west":  "res://assets/creatures/vampire/vampire_west_idle.png"
+							 },
+					"walk":  {
+								 "east":  [
+											  "res://assets/creatures/vampire/vampire_east_walk1.png",
+                                              "res://assets/creatures/vampire/vampire_east_walk2.png"
+										  ],
+								 "north":  [
+											   "res://assets/creatures/vampire/vampire_north_walk1.png",
+                                               "res://assets/creatures/vampire/vampire_north_walk2.png"
+										   ],
+								 "south":  [
+											   "res://assets/creatures/vampire/vampire_south_walk1.png",
+                                               "res://assets/creatures/vampire/vampire_south_walk2.png"
+										   ],
+								 "west":  [
+											  "res://assets/creatures/vampire/vampire_west_walk1.png",
+                                              "res://assets/creatures/vampire/vampire_west_walk2.png"
+										  ]
+							 }
+				},
+	"creature_type":  "undead",
+	"melee_skill":  75,
+	"melee_attack":  40,
+	"melee_interval":  2000,
+	"corpse_sprites":  [
+						   "res://Assets/creatures/vampire/vampire_corpse_fresh.png",
+						   "res://Assets/creatures/vampire/vampire_corpse_decayed.png",
+                           "res://Assets/creatures/vampire/vampire_corpse_skeleton.png"
+					   ]
+}

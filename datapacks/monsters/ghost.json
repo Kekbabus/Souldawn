@@ -1,0 +1,63 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_strike",
+                          "min_damage":  20,
+                          "max_damage":  45,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  0,
+    "base_health":  150.0,
+    "defense":  0,
+    "definition_id":  "ghost",
+    "detection_range":  8,
+    "display_name":  "Ghost",
+    "experience_reward":  120.0,
+    "immunities":  {
+                       "physical":  true,
+                       "drown":  true,
+                       "earth":  true,
+                       "lifedrain":  true,
+                       "paralyze":  true
+                   },
+    "loot_table":  "ghost_loot",
+    "speed":  160.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/ghost/ghost_east_idle.png",
+                                 "north":  "res://assets/creatures/ghost/ghost_north_idle.png",
+                                 "south":  "res://assets/creatures/ghost/ghost_south_idle.png",
+                                 "west":  "res://assets/creatures/ghost/ghost_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/ghost/ghost_east_walk1.png",
+                                              "res://assets/creatures/ghost/ghost_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/ghost/ghost_north_walk1.png",
+                                               "res://assets/creatures/ghost/ghost_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/ghost/ghost_south_walk1.png",
+                                               "res://assets/creatures/ghost/ghost_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/ghost/ghost_west_walk1.png",
+                                              "res://assets/creatures/ghost/ghost_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "undead",
+    "melee_skill":  30,
+    "melee_attack":  40,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/ghost/ghost_corpse_fresh.png",
+                           "res://Assets/creatures/ghost/ghost_corpse_decayed.png",
+                           "res://Assets/creatures/ghost/ghost_corpse_skeleton.png"
+                       ]
+}

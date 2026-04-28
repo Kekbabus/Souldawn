@@ -1,0 +1,29 @@
+{
+  "table_id": "yeti_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 100.0,
+      "min_quantity": 1,
+      "max_quantity": 60
+    },
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 100.0,
+      "min_quantity": 1,
+      "max_quantity": 40
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 33.33,
+      "min_quantity": 1,
+      "max_quantity": 4
+    },
+    {
+      "item_definition_id": "ham",
+      "chance": 10.0,
+      "min_quantity": 1,
+      "max_quantity": 5
+    }
+  ]
+}

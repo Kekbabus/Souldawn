@@ -1,0 +1,49 @@
+[gd_scene format=3]
+
+[node name="CountSlider" type="PanelContainer"]
+mouse_filter = 0
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "How many?"
+horizontal_alignment = 1
+mouse_filter = 2
+
+[node name="Slider" type="HSlider" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(150, 20)
+focus_mode = 2
+min_value = 1.0
+max_value = 100.0
+value = 100.0
+
+[node name="CountLabel" type="Label" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "100"
+horizontal_alignment = 1
+mouse_filter = 2
+
+[node name="ButtonRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="OkBtn" type="Button" parent="VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 2
+text = "OK"
+
+[node name="CancelBtn" type="Button" parent="VBox/ButtonRow"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 2
+text = "Cancel"

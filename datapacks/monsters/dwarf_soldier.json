@@ -1,0 +1,52 @@
+{
+  "abilities": [
+    {
+      "id": "physical_ranged",
+      "min_damage": 0,
+      "max_damage": 60,
+      "chance_percent": 10,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "melee",
+  "armor": 15,
+  "base_health": 135.0,
+  "defense": 15,
+  "definition_id": "dwarf_soldier",
+  "detection_range": 8,
+  "display_name": "Dwarf Soldier",
+  "experience_reward": 70.0,
+  "loot_table": "dwarf_soldier_loot",
+  "speed": 170.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/dwarf_soldier/dwarf_soldier_east_idle.png",
+      "north": "res://assets/creatures/dwarf_soldier/dwarf_soldier_north_idle.png",
+      "south": "res://assets/creatures/dwarf_soldier/dwarf_soldier_south_idle.png",
+      "west": "res://assets/creatures/dwarf_soldier/dwarf_soldier_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_east_walk1.png",
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_north_walk1.png",
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_south_walk1.png",
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_west_walk1.png",
+        "res://assets/creatures/dwarf_soldier/dwarf_soldier_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 60,
+  "melee_attack": 20,
+  "melee_interval": 2000
+}

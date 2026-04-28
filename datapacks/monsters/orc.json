@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  10,
+    "base_health":  70.0,
+    "defense":  10,
+    "definition_id":  "orc",
+    "detection_range":  8,
+    "display_name":  "Orc",
+    "experience_reward":  25.0,
+    "loot_table":  "orc_loot",
+    "run_on_health":  15,
+    "speed":  150.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/orc/orc_east_idle.png",
+                                 "north":  "res://assets/creatures/orc/orc_north_idle.png",
+                                 "south":  "res://assets/creatures/orc/orc_south_idle.png",
+                                 "west":  "res://assets/creatures/orc/orc_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/orc/orc_east_walk1.png",
+                                              "res://assets/creatures/orc/orc_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/orc/orc_north_walk1.png",
+                                               "res://assets/creatures/orc/orc_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/orc/orc_south_walk1.png",
+                                               "res://assets/creatures/orc/orc_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/orc/orc_west_walk1.png",
+                                              "res://assets/creatures/orc/orc_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  17,
+    "melee_attack":  16,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/orc/orc_corpse_fresh.png",
+                           "res://Assets/creatures/orc/orc_corpse_decayed.png",
+                           "res://Assets/creatures/orc/orc_corpse_skeleton.png"
+                       ]
+}

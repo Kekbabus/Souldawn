@@ -1,0 +1,8 @@
+{
+  "table_id": "blue_djiin_loot",
+  "entries": [
+    { "item_definition_id": "gold_coin", "weight": 100, "chance": 60.0, "min_quantity": 1, "max_quantity": 70 },
+    { "item_definition_id": "gold_coin", "weight": 100, "chance": 70.0, "min_quantity": 1, "max_quantity": 45 },
+    { "item_definition_id": "blue_gem", "weight": 50, "chance": 2.56, "min_quantity": 1, "max_quantity": 4 }
+  ]
+}

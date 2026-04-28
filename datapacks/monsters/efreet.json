@@ -1,0 +1,84 @@
+{
+  "abilities": [
+    {
+      "id": "fire_ranged",
+      "min_damage": 40,
+      "max_damage": 110,
+      "chance_percent": 15,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    },
+    {
+      "id": "energy_area",
+      "min_damage": 30,
+      "max_damage": 90,
+      "chance_percent": 10,
+      "cooldown_seconds": 2.0
+    },
+    {
+      "id": "energy_ranged",
+      "min_damage": 65,
+      "max_damage": 120,
+      "chance_percent": 15,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "melee",
+  "armor": 20,
+  "base_health": 550.0,
+  "defense": 20,
+  "definition_id": "efreet",
+  "detection_range": 8,
+  "display_name": "Efreet",
+  "experience_reward": 410.0,
+  "immunities": {
+    "paralyze": true,
+    "invisible": true
+  },
+  "loot_table": "efreet_loot",
+  "self_healing": {
+    "min": 50,
+    "max": 80,
+    "cooldown_seconds": 2.0,
+    "chance_percent": 15
+  },
+  "speed": 180.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/efreet/efreet_east_idle.png",
+      "north": "res://assets/creatures/efreet/efreet_north_idle.png",
+      "south": "res://assets/creatures/efreet/efreet_south_idle.png",
+      "west": "res://assets/creatures/efreet/efreet_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/efreet/efreet_east_walk1.png",
+        "res://assets/creatures/efreet/efreet_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/efreet/efreet_north_walk1.png",
+        "res://assets/creatures/efreet/efreet_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/efreet/efreet_south_walk1.png",
+        "res://assets/creatures/efreet/efreet_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/efreet/efreet_west_walk1.png",
+        "res://assets/creatures/efreet/efreet_west_walk2.png"
+      ]
+    }
+  },
+  "summons": [
+    {
+      "name": "green djinn",
+      "interval_ms": 2000,
+      "chance": 50
+    }
+  ],
+  "creature_type": "blood",
+  "melee_skill": 45,
+  "melee_attack": 40,
+  "melee_interval": 2000
+}

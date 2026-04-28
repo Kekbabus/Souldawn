@@ -1,0 +1,65 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_strike",
+                          "min_damage":  0,
+                          "max_damage":  50,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  25,
+    "base_health":  190.0,
+    "defense":  25,
+    "definition_id":  "dark_monk",
+    "detection_range":  8,
+    "display_name":  "Dark Monk",
+    "experience_reward":  145.0,
+    "immunities":  {
+                       "invisible":  true
+                   },
+    "loot_table":  "dark_monk_loot",
+    "self_healing":  {
+                         "min":  25,
+                         "max":  49,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  210.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/dark_monk/dark_monk_east_idle.png",
+                                 "north":  "res://assets/creatures/dark_monk/dark_monk_north_idle.png",
+                                 "south":  "res://assets/creatures/dark_monk/dark_monk_south_idle.png",
+                                 "west":  "res://assets/creatures/dark_monk/dark_monk_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/dark_monk/dark_monk_east_walk1.png",
+                                              "res://assets/creatures/dark_monk/dark_monk_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/dark_monk/dark_monk_north_walk1.png",
+                                               "res://assets/creatures/dark_monk/dark_monk_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/dark_monk/dark_monk_south_walk1.png",
+                                               "res://assets/creatures/dark_monk/dark_monk_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/dark_monk/dark_monk_west_walk1.png",
+                                              "res://assets/creatures/dark_monk/dark_monk_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  50,
+    "melee_attack":  25,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/dark_monk/dark_monk_corpse_fresh.png",
+                           "res://Assets/creatures/dark_monk/dark_monk_corpse_decayed.png",
+                           "res://Assets/creatures/dark_monk/dark_monk_corpse_skeleton.png"
+                       ]
+}

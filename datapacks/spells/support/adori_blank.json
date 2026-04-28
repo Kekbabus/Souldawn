@@ -1,0 +1,12 @@
+{
+  "name": "Blank Rune",
+  "words": "adori blank",
+  "mana_cost": 0,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "blankrune",
+  "conjure_count": 1,
+  "reagent_id": "",
+  "vocations": ["sorcerer", "druid"],
+  "min_level": 0
+}

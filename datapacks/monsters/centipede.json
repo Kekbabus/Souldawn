@@ -1,0 +1,53 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  10,
+    "base_health":  70.0,
+    "defense":  10,
+    "definition_id":  "centipede",
+    "detection_range":  8,
+    "display_name":  "Centipede",
+    "experience_reward":  34.0,
+    "immunities":  {
+                       "earth":  true
+                   },
+    "loot_table":  "centipede_loot",
+    "speed":  165.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/centipede/centipede_east_idle.png",
+                                 "north":  "res://assets/creatures/centipede/centipede_north_idle.png",
+                                 "south":  "res://assets/creatures/centipede/centipede_south_idle.png",
+                                 "west":  "res://assets/creatures/centipede/centipede_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/centipede/centipede_east_walk1.png",
+                                              "res://assets/creatures/centipede/centipede_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/centipede/centipede_north_walk1.png",
+                                               "res://assets/creatures/centipede/centipede_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/centipede/centipede_south_walk1.png",
+                                               "res://assets/creatures/centipede/centipede_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/centipede/centipede_west_walk1.png",
+                                              "res://assets/creatures/centipede/centipede_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "poison",
+    "melee_skill":  22,
+    "melee_attack":  18,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/centipede/centipede_corpse_fresh.png",
+                           "res://Assets/creatures/centipede/centipede_corpse_decayed.png",
+                           "res://Assets/creatures/centipede/centipede_corpse_skeleton.png"
+                       ]
+}

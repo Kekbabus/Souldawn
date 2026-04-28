@@ -1,0 +1,17 @@
+{
+  "name": "Utani Hur",
+  "words": "utani hur",
+  "mana_cost": 60,
+  "cooldown": 2.0,
+  "type": "buff",
+  "buff_id": "haste",
+  "duration_ms": 33000,
+  "speed_bonus": 80,
+  "vocations": [
+    "knight",
+    "paladin",
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 14
+}

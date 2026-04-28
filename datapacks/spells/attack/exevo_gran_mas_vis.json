@@ -1,0 +1,22 @@
+{
+  "name": "Ultimate Explosion",
+  "words": "exevo gran mas vis",
+  "mana_cost": 1200,
+  "cooldown": 6.0,
+  "type": "area",
+  "damage_min": 100,
+  "damage_max": 300,
+  "area_pattern": "AREA_CROSS5X5",
+  "damage_element": "energy",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 60,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 6.0,
+  "formula_ml_max": 11.0,
+  "formula_base_min": 50,
+  "formula_base_max": 100,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "energy_effect"
+}

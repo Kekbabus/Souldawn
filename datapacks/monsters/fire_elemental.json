@@ -1,0 +1,58 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "fire_area",
+                          "min_damage":  45,
+                          "max_damage":  160,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  15,
+    "base_health":  280.0,
+    "defense":  15,
+    "definition_id":  "fire_elemental",
+    "detection_range":  8,
+    "display_name":  "Fire Elemental",
+    "experience_reward":  220.0,
+    "immunities":  {
+                       "fire":  true,
+                       "lifedrain":  true,
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "fire_elemental_loot",
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/fire_elemental/east_idle.png",
+                                 "north":  "res://assets/creatures/fire_elemental/north_idle.png",
+                                 "south":  "res://assets/creatures/fire_elemental/south_idle.png",
+                                 "west":  "res://assets/creatures/fire_elemental/west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/fire_elemental/east_walk1.png",
+                                              "res://assets/creatures/fire_elemental/east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/fire_elemental/north_walk1.png",
+                                               "res://assets/creatures/fire_elemental/north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/fire_elemental/south_walk1.png",
+                                               "res://assets/creatures/fire_elemental/south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/fire_elemental/west_walk1.png",
+                                              "res://assets/creatures/fire_elemental/west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "fire",
+    "melee_skill":  50,
+    "melee_attack":  25,
+    "melee_interval":  2000
+}

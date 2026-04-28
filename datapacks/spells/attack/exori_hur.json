@@ -1,0 +1,23 @@
+{
+  "name": "Whirlwind Throw",
+  "words": "exori hur",
+  "mana_cost": 40,
+  "cooldown": 2.0,
+  "type": "wave",
+  "damage_min": 15,
+  "damage_max": 50,
+  "area_pattern": "AREA_BEAM1",
+  "damage_element": "physical",
+  "vocations": [
+    "knight"
+  ],
+  "min_level": 15,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.5,
+  "formula_ml_max": 2.5,
+  "formula_base_min": 10,
+  "formula_base_max": 18,
+  "projectile": "arrow",
+  "caster_effect": "blueshimmer",
+  "tile_effect": "hit_physical"
+}

@@ -1,0 +1,43 @@
+{
+  "abilities": [],
+  "ai_behavior": "melee",
+  "armor": 15,
+  "base_health": 210.0,
+  "defense": 15,
+  "definition_id": "orc_berserker",
+  "detection_range": 8,
+  "display_name": "Orc Berserker",
+  "experience_reward": 195.0,
+  "loot_table": "orc_berserker_loot",
+  "speed": 195.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/orc_berserker/orc_berserker_east_idle.png",
+      "north": "res://assets/creatures/orc_berserker/orc_berserker_north_idle.png",
+      "south": "res://assets/creatures/orc_berserker/orc_berserker_south_idle.png",
+      "west": "res://assets/creatures/orc_berserker/orc_berserker_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/orc_berserker/orc_berserker_east_walk1.png",
+        "res://assets/creatures/orc_berserker/orc_berserker_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/orc_berserker/orc_berserker_north_walk1.png",
+        "res://assets/creatures/orc_berserker/orc_berserker_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/orc_berserker/orc_berserker_south_walk1.png",
+        "res://assets/creatures/orc_berserker/orc_berserker_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/orc_berserker/orc_berserker_west_walk1.png",
+        "res://assets/creatures/orc_berserker/orc_berserker_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 100,
+  "melee_attack": 60,
+  "melee_interval": 2000
+}

@@ -1,0 +1,127 @@
+{
+	"_comment": "Stairs and teleport actions. action_id range: 1000–1099. Step-on triggers that move the player relative to the tile position.",
+
+	"_stairs_up": "Stairs going UP — one action per exit direction",
+	"10001": {
+		"type": "teleport",
+		"dx": 1,
+		"dy": -1,
+		"dz": 1,
+		"message": "You go up."
+	},
+	"10002": {
+		"type": "teleport",
+		"dx": 0,
+		"dy": 1,
+		"dz": 1,
+		"message": "You go up."
+	},
+	"10003": {
+		"type": "teleport",
+		"dx": 1,
+		"dy": 0,
+		"dz": 1,
+		"message": "You go up."
+	},
+	"10004": {
+		"type": "teleport",
+		"dx": -1,
+		"dy": -1,
+		"dz": 1,
+		"message": "You go up."
+	},
+
+	"_stairs_down": "Stairs going DOWN — one action per exit direction",
+	"801": {
+		"type": "teleport",
+		"dx": 1,
+		"dy": 1,
+		"dz": -1,
+		"message": "You go down."
+	},
+	"802": {
+		"type": "teleport",
+		"dx": -1,
+		"dy": -1,
+		"dz": -1,
+		"message": "You go down."
+	},
+	"803": {
+		"type": "teleport",
+		"dx": 1,
+		"dy": 0,
+		"dz": -1,
+		"message": "You go down."
+	},
+	"804": {
+		"type": "teleport",
+		"dx": -1,
+		"dy": 0,
+		"dz": -1,
+		"message": "You go down."
+	},
+	"805": {
+		"type": "teleport",
+		"dx": -1,
+		"dy": 1,
+		"dz": -1,
+		"message": "You go down."
+	},
+
+	"_level_change": "Level change actions — direction-based with optional exit_direction",
+	"1030": {
+		"type": "level_change",
+		"direction": "up",
+		"exit_direction": "south",
+		"message": "You ascend."
+	},
+	"1031": {
+		"type": "level_change",
+		"direction": "up",
+		"exit_direction": "north",
+		"message": "You ascend."
+	},
+	"1032": {
+		"type": "level_change",
+		"direction": "down",
+		"exit_direction": "south",
+		"message": "You descend."
+	},
+	"1033": {
+		"type": "level_change",
+		"direction": "down",
+		"exit_direction": "east",
+		"message": "You descend."
+	},
+
+	"_ladder_up": "Ladders — use (right-click) to climb",
+	"10005": {
+		"type": "use_teleport",
+		"dx": -1,
+		"dy": 1,
+		"dz": 1,
+		"message": "You climb up."
+	},
+
+	"_magic_teleport": "Magic portal — requires level 20 to use",
+	"1070": {
+		"type": "teleport",
+		"dx": 0,
+		"dy": 0,
+		"dz": 3,
+		"message": "The portal whisks you away!",
+		"conditions": [
+			{ "type": "min_level", "level": 20 }
+		]
+	},
+
+	"_item_teleport": "Use a magic key on this tile to teleport",
+	"1080": {
+		"type": "item_use_teleport",
+		"item": "magic_key",
+		"dx": 5,
+		"dy": 0,
+		"dz": 0,
+		"message": "The door shimmers and you pass through."
+	}
+}

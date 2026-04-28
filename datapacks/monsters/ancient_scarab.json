@@ -1,0 +1,64 @@
+{
+  "abilities": [
+    {
+      "id": "poison_ranged",
+      "min_damage": 15,
+      "max_damage": 145,
+      "chance_percent": 20,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "melee",
+  "armor": 30,
+  "base_health": 1000.0,
+  "defense": 30,
+  "definition_id": "ancient_scarab",
+  "detection_range": 8,
+  "display_name": "Ancient Scarab",
+  "experience_reward": 720.0,
+  "immunities": {
+    "earth": true,
+    "paralyze": true,
+    "invisible": true
+  },
+  "loot_table": "ancient_scarab_loot",
+  "speed": 230.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/ancient_scarab/ancient_scarab_east_idle.png",
+      "north": "res://assets/creatures/ancient_scarab/ancient_scarab_north_idle.png",
+      "south": "res://assets/creatures/ancient_scarab/ancient_scarab_south_idle.png",
+      "west": "res://assets/creatures/ancient_scarab/ancient_scarab_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/ancient_scarab/ancient_scarab_east_walk1.png",
+        "res://assets/creatures/ancient_scarab/ancient_scarab_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/ancient_scarab/ancient_scarab_north_walk1.png",
+        "res://assets/creatures/ancient_scarab/ancient_scarab_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/ancient_scarab/ancient_scarab_south_walk1.png",
+        "res://assets/creatures/ancient_scarab/ancient_scarab_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/ancient_scarab/ancient_scarab_west_walk1.png",
+        "res://assets/creatures/ancient_scarab/ancient_scarab_west_walk2.png"
+      ]
+    }
+  },
+  "summons": [
+    {
+      "name": "Larva",
+      "interval_ms": 2000,
+      "chance": 10
+    }
+  ],
+  "creature_type": "poison",
+  "melee_skill": 30,
+  "melee_attack": 65,
+  "melee_interval": 2000
+}

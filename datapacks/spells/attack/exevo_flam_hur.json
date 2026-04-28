@@ -1,0 +1,22 @@
+{
+  "name": "Fire Wave",
+  "words": "exevo flam hur",
+  "mana_cost": 80,
+  "cooldown": 4.0,
+  "type": "wave",
+  "damage_min": 25,
+  "damage_max": 70,
+  "area_pattern": "AREA_WAVE4",
+  "damage_element": "fire",
+  "vocations": [
+    "sorcerer"
+  ],
+  "min_level": 18,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 2.0,
+  "formula_ml_max": 3.6,
+  "formula_base_min": 12,
+  "formula_base_max": 24,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "fire_effect"
+}

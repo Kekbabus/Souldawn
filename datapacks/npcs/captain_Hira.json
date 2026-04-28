@@ -1,0 +1,38 @@
+{
+  "definition_id": "captain_Hira",
+  "display_name": "Captain Hira",
+  "outfit_id": "warrior_female",
+  "sprite_id": 0,
+  "walkable": false,
+  "wander_radius": 0,
+  "passages": [
+	{ "name": "Endo", "cost": 100, "destination": { "x": 49, "y": 0, "z": 7 } }
+  ],
+  "dialogue_tree": {
+	"greeting": "Welcome aboard! I can offer you {passage} to Endo. Where would you like to go?",
+	"farewell": "Fair winds to you, traveller!",
+	"keywords": {
+	  "name": { "text": "I am the Captain. I sail between the great cities." },
+	  "job": { "text": "I transport adventurers between cities. Ask me for {passage} if you need a ride." },
+	  "passage": {
+		"text": "I can take you to {Endo} for 100 gold. Where shall it be?",
+		"keywords": {
+		  "Endo": {
+			"text": "Endo it is! That will be 100 gold. Shall I set sail? Say {yes} or {no}.",
+			"keywords": {
+			  "yes": { "text": "Hold tight! Off we go to Endo!", "action": "travel:Endo" },
+			  "no": { "text": "Maybe another time then. I can still offer {passage} if you change your mind." }
+			}
+		  },
+		  "Endo": {
+			"text": "Endo, the northern city! That will be 110 gold. Shall I set sail? Say {yes} or {no}.",
+			"keywords": {
+			  "yes": { "text": "Anchors aweigh! Next stop, Endo!", "action": "travel:Endo" },
+			  "no": { "text": "Maybe another time then. I can still offer {passage} if you change your mind." }
+			}
+		  }
+		}
+	  }
+	}
+  }
+}

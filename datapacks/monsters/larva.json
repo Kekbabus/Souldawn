@@ -1,0 +1,47 @@
+{
+  "abilities": [],
+  "ai_behavior": "melee",
+  "armor": 10,
+  "base_health": 70.0,
+  "defense": 10,
+  "definition_id": "larva",
+  "detection_range": 8,
+  "display_name": "Larva",
+  "experience_reward": 44.0,
+  "immunities": {
+    "earth": true,
+    "paralyze": true
+  },
+  "loot_table": "larva_loot",
+  "speed": 175.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/larva/larva_east_idle.png",
+      "north": "res://assets/creatures/larva/larva_north_idle.png",
+      "south": "res://assets/creatures/larva/larva_south_idle.png",
+      "west": "res://assets/creatures/larva/larva_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/larva/larva_east_walk1.png",
+        "res://assets/creatures/larva/larva_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/larva/larva_north_walk1.png",
+        "res://assets/creatures/larva/larva_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/larva/larva_south_walk1.png",
+        "res://assets/creatures/larva/larva_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/larva/larva_west_walk1.png",
+        "res://assets/creatures/larva/larva_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "poison",
+  "melee_skill": 25,
+  "melee_attack": 20,
+  "melee_interval": 2000
+}

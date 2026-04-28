@@ -1,0 +1,14 @@
+{
+  "name": "Conjure Piercing Bolt",
+  "words": "exevo con grav",
+  "mana_cost": 180,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "piercing_bolt",
+  "conjure_count": 10,
+  "reagent_id": "",
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 33
+}

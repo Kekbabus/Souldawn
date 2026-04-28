@@ -1,0 +1,56 @@
+{
+  "abilities": [
+    {
+      "id": "physical_ranged",
+      "min_damage": 0,
+      "max_damage": 70,
+      "chance_percent": 20,
+      "cooldown_seconds": 2.0,
+      "range": 7
+    }
+  ],
+  "ai_behavior": "melee",
+  "armor": 25,
+  "base_health": 450.0,
+  "defense": 25,
+  "definition_id": "orc_leader",
+  "detection_range": 8,
+  "display_name": "Orc Leader",
+  "experience_reward": 270.0,
+  "immunities": {
+    "invisible": true,
+    "fire": true
+  },
+  "loot_table": "orc_leader_loot",
+  "speed": 220.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/orc_leader/orc_leader_east_idle.png",
+      "north": "res://assets/creatures/orc_leader/orc_leader_north_idle.png",
+      "south": "res://assets/creatures/orc_leader/orc_leader_south_idle.png",
+      "west": "res://assets/creatures/orc_leader/orc_leader_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/orc_leader/orc_leader_east_walk1.png",
+        "res://assets/creatures/orc_leader/orc_leader_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/orc_leader/orc_leader_north_walk1.png",
+        "res://assets/creatures/orc_leader/orc_leader_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/orc_leader/orc_leader_south_walk1.png",
+        "res://assets/creatures/orc_leader/orc_leader_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/orc_leader/orc_leader_west_walk1.png",
+        "res://assets/creatures/orc_leader/orc_leader_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 92,
+  "melee_attack": 54,
+  "melee_interval": 2000
+}

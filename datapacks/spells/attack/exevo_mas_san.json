@@ -1,0 +1,22 @@
+{
+  "name": "Exevo Mas San",
+  "words": "exevo mas san",
+  "mana_cost": 100,
+  "cooldown": 4.0,
+  "type": "wave",
+  "damage_min": 40,
+  "damage_max": 100,
+  "area_pattern": "AREA_WAVE4",
+  "damage_element": "holy",
+  "vocations": [
+    "paladin"
+  ],
+  "min_level": 20,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 3.0,
+  "formula_ml_max": 5.5,
+  "formula_base_min": 20,
+  "formula_base_max": 40,
+  "caster_effect": "blueshimmer",
+  "tile_effect": "fire_effect"
+}

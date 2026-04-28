@@ -1,0 +1,46 @@
+{
+	"abilities":  [
+
+				  ],
+	"ai_behavior":  "flee",
+	"armor":  5,
+	"base_health":  20.0,
+	"defense":  5,
+	"definition_id":  "rat",
+	"detection_range":  8,
+	"display_name":  "Rat",
+	"experience_reward":  5.0,
+	"loot_table":  "rat_loot",
+	"run_on_health":  5,
+	"speed":  135.0,
+	"sprites":  {
+					"idle":  {
+								 "east":  "res://assets/creatures/rat/east_idle.png",
+								 "north":  "res://assets/creatures/rat/north_idle.png",
+								 "south":  "res://assets/creatures/rat/south_idle.png",
+								 "west":  "res://assets/creatures/rat/west_idle.png"
+							 },
+					"walk":  {
+								 "east":  [
+											  "res://assets/creatures/rat/east_walk1.png",
+                                              "res://assets/creatures/rat/east_walk2.png"
+										  ],
+								 "north":  [
+											   "res://assets/creatures/rat/north_walk1.png",
+                                               "res://assets/creatures/rat/north_walk2.png"
+										   ],
+								 "south":  [
+											   "res://assets/creatures/rat/south_walk1.png",
+                                               "res://assets/creatures/rat/south_walk2.png"
+										   ],
+								 "west":  [
+											  "res://assets/creatures/rat/west_walk1.png",
+                                              "res://assets/creatures/rat/west_walk2.png"
+										  ]
+							 }
+				},
+	"creature_type":  "blood",
+	"melee_skill":  10,
+	"melee_attack":  10,
+	"melee_interval":  2000
+}

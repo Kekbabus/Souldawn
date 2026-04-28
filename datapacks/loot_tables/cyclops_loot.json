@@ -1,0 +1,17 @@
+{
+  "table_id": "cyclops_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 82.0,
+      "min_quantity": 1,
+      "max_quantity": 47
+    },
+    {
+      "item_definition_id": "meat",
+      "chance": 30.07,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  ]
+}

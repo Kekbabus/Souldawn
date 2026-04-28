@@ -1,0 +1,8 @@
+{
+  "ability_id": "poison_area",
+  "ability_type": "poison",
+  "area_effect": "poison_effect",
+  "area_pattern": "AREA_CIRCLE2X2",
+  "target": true,
+  "projectile": "earth"
+}

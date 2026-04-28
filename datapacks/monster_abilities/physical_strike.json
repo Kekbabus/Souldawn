@@ -1,0 +1,7 @@
+{
+  "ability_id": "physical_strike",
+  "ability_type": "physical",
+  "area_effect": "hit_physical",
+  "area_pattern": "AREA_BEAM1",
+  "target": false
+}

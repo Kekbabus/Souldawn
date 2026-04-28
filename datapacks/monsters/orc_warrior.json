@@ -1,0 +1,44 @@
+{
+  "abilities": [],
+  "ai_behavior": "flee",
+  "armor": 15,
+  "base_health": 125.0,
+  "defense": 15,
+  "definition_id": "orc_warrior",
+  "detection_range": 8,
+  "display_name": "Orc Warrior",
+  "experience_reward": 50.0,
+  "loot_table": "orc_warrior_loot",
+  "run_on_health": 11,
+  "speed": 190.0,
+  "sprites": {
+    "idle": {
+      "east": "res://assets/creatures/orc_warrior/orc_warrior_east_idle.png",
+      "north": "res://assets/creatures/orc_warrior/orc_warrior_north_idle.png",
+      "south": "res://assets/creatures/orc_warrior/orc_warrior_south_idle.png",
+      "west": "res://assets/creatures/orc_warrior/orc_warrior_west_idle.png"
+    },
+    "walk": {
+      "east": [
+        "res://assets/creatures/orc_warrior/orc_warrior_east_walk1.png",
+        "res://assets/creatures/orc_warrior/orc_warrior_east_walk2.png"
+      ],
+      "north": [
+        "res://assets/creatures/orc_warrior/orc_warrior_north_walk1.png",
+        "res://assets/creatures/orc_warrior/orc_warrior_north_walk2.png"
+      ],
+      "south": [
+        "res://assets/creatures/orc_warrior/orc_warrior_south_walk1.png",
+        "res://assets/creatures/orc_warrior/orc_warrior_south_walk2.png"
+      ],
+      "west": [
+        "res://assets/creatures/orc_warrior/orc_warrior_west_walk1.png",
+        "res://assets/creatures/orc_warrior/orc_warrior_west_walk2.png"
+      ]
+    }
+  },
+  "creature_type": "blood",
+  "melee_skill": 30,
+  "melee_attack": 24,
+  "melee_interval": 2000
+}

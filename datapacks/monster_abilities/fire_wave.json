@@ -1,0 +1,7 @@
+{
+  "ability_id": "fire_wave",
+  "ability_type": "fire",
+  "area_effect": "fire_effect",
+  "area_pattern": "AREA_DRAGON_BREATH",
+  "target": false
+}

@@ -1,0 +1,67 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  0,
+                          "max_damage":  180,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  1.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "energy_wave",
+                          "min_damage":  0,
+                          "max_damage":  175,
+                          "chance_percent":  12,
+                          "cooldown_seconds":  1.0
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  28,
+    "base_health":  950.0,
+    "defense":  33,
+    "definition_id":  "yeti",
+    "detection_range":  8,
+    "display_name":  "Yeti",
+    "experience_reward":  460.0,
+    "immunities":  {
+                       "invisible":  true
+                   },
+    "loot_table":  "yeti_loot",
+    "speed":  270.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/yeti/yeti_east_idle.png",
+                                 "north":  "res://assets/creatures/yeti/yeti_north_idle.png",
+                                 "south":  "res://assets/creatures/yeti/yeti_south_idle.png",
+                                 "west":  "res://assets/creatures/yeti/yeti_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/yeti/yeti_east_walk1.png",
+                                              "res://assets/creatures/yeti/yeti_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/yeti/yeti_north_walk1.png",
+                                               "res://assets/creatures/yeti/yeti_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/yeti/yeti_south_walk1.png",
+                                               "res://assets/creatures/yeti/yeti_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/yeti/yeti_west_walk1.png",
+                                              "res://assets/creatures/yeti/yeti_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  100,
+    "melee_attack":  60,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/yeti/yeti_corpse_fresh.png",
+                           "res://Assets/creatures/yeti/yeti_corpse_decayed.png",
+                           "res://Assets/creatures/yeti/yeti_corpse_skeleton.png"
+                       ]
+}

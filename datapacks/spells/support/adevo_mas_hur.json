@@ -1,0 +1,12 @@
+{
+  "name": "Explosion Rune",
+  "words": "adevo mas hur",
+  "mana_cost": 570,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "explosion_rune",
+  "conjure_count": 6,
+  "reagent_id": "blankrune",
+  "vocations": ["sorcerer", "druid"],
+  "min_level": 6
+}

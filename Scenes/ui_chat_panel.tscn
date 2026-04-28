@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://v2_chat_panel"]
+
+[node name="ChatPanel" type="PanelContainer"]
+anchors_preset = 0
+offset_right = 830.0
+offset_bottom = 180.0
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="TabRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="LocalTab" type="Button" parent="VBox/TabRow"]
+custom_minimum_size = Vector2(80, 24)
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "local"
+toggle_mode = true
+button_pressed = true
+
+[node name="ServerLogTab" type="Button" parent="VBox/TabRow"]
+custom_minimum_size = Vector2(80, 24)
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "server log"
+toggle_mode = true
+
+[node name="GlobalChatTab" type="Button" parent="VBox/TabRow"]
+custom_minimum_size = Vector2(80, 24)
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "global chat"
+toggle_mode = true
+
+[node name="Spacer" type="Control" parent="VBox/TabRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OpenChatBtn" type="Button" parent="VBox/TabRow"]
+custom_minimum_size = Vector2(80, 24)
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "open chat"
+
+[node name="History" type="RichTextLabel" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+scroll_following = true
+theme_override_font_sizes/normal_font_size = 11
+
+[node name="InputBox" type="LineEdit" parent="VBox"]
+layout_mode = 2
+placeholder_text = "Press Enter to chat..."

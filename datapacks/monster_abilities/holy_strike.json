@@ -1,0 +1,7 @@
+{
+  "ability_id": "holy_strike",
+  "ability_type": "holy",
+  "area_effect": "energy_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": false
+}

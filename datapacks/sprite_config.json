@@ -1,0 +1,161 @@
+{
+  "equipment_placeholders": {
+    "head": "res://Assets/Items/helmets/leather_helmet.png",
+    "neck": "res://Assets/Items/amulets/silver_amulet.png",
+    "shield": "res://Assets/Items/shields/wooden_shield.png",
+    "weapon": "res://Assets/Items/swords/sword.png",
+    "armor": "res://Assets/Items/armor/leather_armor.png",
+    "legs": "res://Assets/Items/legs/leather_legs.png",
+    "boots": "res://Assets/Items/boots/leather_boots.png",
+    "ring": "res://Assets/Items/rings/gold_ring.png",
+    "arrow": "res://Assets/Items/ammunition/arrow/arrow.png",
+    "backpack": "res://Assets/Items/containers/bag.png"
+  },
+  "effects": {
+    "blueshimmer":  { "folder": "res://assets/effects/blueshimmer",       "prefix": "frame", "count": 5,  "fps": 10.0 },
+    "redshimmer":   { "folder": "res://assets/effects/redshimmer",        "prefix": "frame", "count": 5,  "fps": 10.0 },
+    "greenshimmer": { "folder": "res://assets/effects/greenshimmer",      "prefix": "frame", "count": 5,  "fps": 10.0 },
+    "hit_physical": { "folder": "res://assets/effects/hit_physical",      "prefix": "frame", "count": 4,  "fps": 10.0 },
+    "hit_poison":   { "folder": "res://assets/effects/hit_poison",        "prefix": "frame", "count": 4,  "fps": 10.0 },
+    "undead_hit":   { "folder": "res://assets/effects/undead_hit_effect", "prefix": "frame", "count": 8,  "fps": 10.0 },
+    "energy_effect":{ "folder": "res://assets/effects/energy_effect",     "prefix": "frame", "count": 8,  "fps": 12.0 },
+    "death_effect": { "folder": "res://assets/effects/death_effect",      "prefix": "frame", "count": 9,  "fps": 10.0 },
+    "fire_effect":  { "folder": "res://assets/effects/fire_effect",       "prefix": "frame", "count": 8,  "fps": 10.0 },
+    "fire_effect2":  { "folder": "res://assets/effects/fire_effect2",       "prefix": "frame", "count": 8,  "fps": 10.0 },
+    "fireball":     { "folder": "res://assets/effects/fireball_effect",   "prefix": "frame", "count": 6,  "fps": 10.0 },
+    "greatfireball":{ "folder": "res://assets/effects/great_fireball_effect", "prefix": "frame", "count": 8,  "fps": 10.0 },
+    "u_explosion":  { "folder": "res://assets/effects/ultimate_explosion_effect", "prefix": "frame", "count": 8,  "fps": 10.0 },
+    "poison_effect":{ "folder": "res://assets/effects/poison_effect",     "prefix": "frame", "count": 7,  "fps": 10.0 },
+    "exhaust":      { "folder": "res://assets/effects/exhaust_frame",     "prefix": "frame", "count": 4,  "fps": 10.0  },
+    "blocked":      { "folder": "res://assets/effects/blocked_effect",    "prefix": "frame", "count": 3,  "fps": 10.0  },
+    "blood_red":    { "folder": "res://assets/effects/blood_red",         "prefix": "frame", "count": 3,  "fps": 10.0  },
+    "blood_spill":  { "folder": "res://assets/effects/blood_spill",       "prefix": "frame", "count": 3,  "fps": 10.0  },
+    "energy_field_effect":  { "folder": "res://assets/effects/energy_field_effect",       "prefix": "frame", "count": 2,  "fps": 10.0  }
+
+  },
+  "mana_shield_effect": "mana_shield_effect",
+  "creature_hit_effects": {
+    "blood":  "hit_physical",
+    "undead": "undead_hit",
+    "fire":   "fire_effect2",
+    "poison": "hit_poison",
+    "energy": "energy_effect"
+  },
+  "projectiles": {
+    "arrow":  { "folder": "res://assets/effects/arrow_shoot_effect",   "prefix": "arrow" },
+    "bolt":   { "folder": "res://assets/effects/bolt_shoot_effect",    "prefix": "bolt" },
+    "fire":   { "folder": "res://assets/effects/fire_shoot_effect",    "prefix": "fire" },
+    "death":  { "folder": "res://assets/effects/death_shoot_effect",   "prefix": "death" },
+    "energy": { "folder": "res://assets/effects/energy_shoot_effect",  "prefix": "energy" },
+    "poison": { "folder": "res://assets/effects/poison_shoot_effect",  "prefix": "poison" },
+    "spear":  { "folder": "res://assets/effects/spear_shoot_effect",   "prefix": "spear" }
+
+  },
+  "spell_effects": {
+    "exura": "blueshimmer",
+    "exura gran": "blueshimmer",
+    "exura vita": "blueshimmer",
+    "utamo vita": "blueshimmer",
+    "exura ico": "blueshimmer",
+    "exura san": "blueshimmer",
+    "exura gran mas res": "blueshimmer",
+    "exana pox": "blueshimmer",
+
+    "adevo grav flam": "redshimmer",
+    "adevo mas hur": "redshimmer",
+    "adori blank": "redshimmer",
+    "adori flam": "redshimmer",
+    "adori gran flam": "redshimmer",
+    "adori gran": "redshimmer",
+    "adori vita vis": "redshimmer",
+    "adori" : "redshimmer",
+    "adura gran": "redshimmer",
+    "exevo con mort": "redshimmer",
+    "exevo con pox" : "redshimmer",
+    "exevo con" : "redshimmer",
+    
+    "utani hur": "greenshimmer",
+    "utani gran hur": "greenshimmer",
+
+    "exori vis": "blueshimmer",
+    "exori flam" : "blueshimmer",
+    "exori mort" : "blueshimmer",
+    "exevo vis lux": "blueshimmer",
+    "exevo gran vis lux": "blueshimmer",
+    "exevo vis hur": "blueshimmer",
+    "exevo gran mas vis": "blueshimmer",
+    "exevo flam hur" : "blueshimmer",
+    "exevo gran mas flam": "blueshimmer",
+    "exevo tera hur": "blueshimmer",
+    "exori con": "blueshimmer"
+  },
+  "projectile_size": 23,
+  "blood_spill_duration_seconds": 60,
+  "spawn_effect": "spawn_effect",
+  "field_sprites": {
+    "fire_field": {
+      "stages": [
+        {
+          "frames": [
+            "res://Assets/effects/fire_effect/frame (1).png",
+            "res://Assets/effects/fire_effect/frame (2).png"
+          ],
+          "fps": 4.0
+        },
+        {
+          "frames": [
+            "res://Assets/effects/fire_effect/frame (3).png",
+            "res://Assets/effects/fire_effect/frame (4).png"
+          ],
+          "fps": 4.0
+        },
+        {
+          "frames": [
+            "res://Assets/effects/fire_effect/frame (5).png",
+            "res://Assets/effects/fire_effect/frame (6).png"
+          ],
+          "fps": 4.0
+        }
+      ],
+      "duration": 45.0
+    },
+    "poison_field": {
+      "stages": [
+        {
+          "frames": [
+            "res://Assets/effects/poison_field_effect/frame (1)",
+            "res://Assets/effects/poison_field_effect/frame (2)",
+            "res://Assets/effects/poison_field_effect/frame (3)",
+            "res://Assets/effects/poison_field_effect/frame (4)"
+          ],
+          "fps": 4.0
+        }
+      ],
+      "duration": 45.0
+    },
+    "energy_field": {
+      "stages": [
+        {
+          "frames": [
+            "res://Assets/effects/energy_field_effect/frame (1).png",
+            "res://Assets/effects/energy_field_effect/frame (2).png"
+          ],
+          "fps": 4.0
+        }
+      ],
+      "duration": 45.0
+    },
+    "magic_wall": {
+      "stages": [
+        {
+          "frames": [
+            "res://Assets/effects/magic_wall_effect/frame (1).png",
+            "res://Assets/effects/magic_wall_effect/frame (2).png"
+          ],
+          "fps": 4.0
+        }
+      ],
+      "duration": 20.0
+    }
+  }
+}

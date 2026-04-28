@@ -1,0 +1,44 @@
+﻿{
+    "ai_behavior":  "melee",
+    "base_health":  20.0,
+    "definition_id":  "pharaoh",
+    "display_name":  "Pharaoh",
+    "experience_reward":  10.0,
+    "loot_table":  "pharaoh_loot",
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/pharaoh/pharaoh_east_idle.png",
+                                 "north":  "res://assets/creatures/pharaoh/pharaoh_north_idle.png",
+                                 "south":  "res://assets/creatures/pharaoh/pharaoh_south_idle.png",
+                                 "west":  "res://assets/creatures/pharaoh/pharaoh_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/pharaoh/pharaoh_east_walk1.png",
+                                              "res://assets/creatures/pharaoh/pharaoh_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/pharaoh/pharaoh_north_walk1.png",
+                                               "res://assets/creatures/pharaoh/pharaoh_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/pharaoh/pharaoh_south_walk1.png",
+                                               "res://assets/creatures/pharaoh/pharaoh_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/pharaoh/pharaoh_west_walk1.png",
+                                              "res://assets/creatures/pharaoh/pharaoh_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  10,
+    "melee_attack":  10,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/pharaoh/pharaoh_corpse_fresh.png",
+                           "res://Assets/creatures/pharaoh/pharaoh_corpse_decayed.png",
+                           "res://Assets/creatures/pharaoh/pharaoh_corpse_skeleton.png"
+                       ]
+}

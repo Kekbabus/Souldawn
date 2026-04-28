@@ -1,0 +1,67 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  0,
+                          "max_damage":  140,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  5
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  50,
+    "base_health":  1400.0,
+    "defense":  50,
+    "definition_id":  "hero",
+    "detection_range":  8,
+    "display_name":  "Hero",
+    "experience_reward":  1200.0,
+    "immunities":  {
+                       "paralyze":  true,
+                       "invisible":  true,
+                       "energy":  true,
+                       "fire":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "hero_loot",
+    "self_healing":  {
+                         "min":  200,
+                         "max":  250,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  10
+                     },
+    "speed":  240.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/hero/hero_east_idle.png",
+                                 "north":  "res://assets/creatures/hero/hero_north_idle.png",
+                                 "south":  "res://assets/creatures/hero/hero_south_idle.png",
+                                 "west":  "res://assets/creatures/hero/hero_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/hero/hero_east_walk1.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/hero/hero_north_walk1.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/hero/hero_south_walk1.png",
+                                               "res://assets/creatures/hero/hero_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/hero/hero_west_walk1.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  120,
+    "melee_attack":  76,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/hero/hero_corpse_fresh.png",
+                           "res://Assets/creatures/hero/hero_corpse_decayed.png",
+                           "res://Assets/creatures/hero/hero_corpse_skeleton.png"
+                       ]
+}

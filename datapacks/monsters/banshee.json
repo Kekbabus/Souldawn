@@ -1,0 +1,71 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_area",
+                          "min_damage":  100,
+                          "max_damage":  200,
+                          "chance_percent":  15,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  25,
+    "base_health":  1000.0,
+    "defense":  25,
+    "definition_id":  "banshee",
+    "detection_range":  8,
+    "display_name":  "Banshee",
+    "experience_reward":  900.0,
+    "immunities":  {
+                       "fire":  true,
+                       "earth":  true,
+                       "drown":  true,
+                       "lifedrain":  true,
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "banshee_loot",
+    "run_on_health":  500,
+    "self_healing":  {
+                         "min":  120,
+                         "max":  190,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/banshee/banshee_east_idle.png",
+                                 "north":  "res://assets/creatures/banshee/banshee_north_idle.png",
+                                 "south":  "res://assets/creatures/banshee/banshee_south_idle.png",
+                                 "west":  "res://assets/creatures/banshee/banshee_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/banshee/banshee_east_walk1.png",
+                                              "res://assets/creatures/banshee/banshee_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/banshee/banshee_north_walk1.png",
+                                               "res://assets/creatures/banshee/banshee_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/banshee/banshee_south_walk1.png",
+                                               "res://assets/creatures/banshee/banshee_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/banshee/banshee_west_walk1.png",
+                                              "res://assets/creatures/banshee/banshee_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "undead",
+    "melee_skill":  50,
+    "melee_attack":  25,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/banshee/banshee_corpse_fresh.png",
+                           "res://Assets/creatures/banshee/banshee_corpse_decayed.png",
+                           "res://Assets/creatures/banshee/banshee_corpse_skeleton.png"
+                       ]
+}

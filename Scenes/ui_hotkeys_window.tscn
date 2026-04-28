@@ -1,0 +1,38 @@
+[gd_scene format=3]
+
+[node name="HotkeysWindow" type="PanelContainer"]
+custom_minimum_size = Vector2(380, 420)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+theme_override_constants/separation = 4
+
+[node name="TitleBar" type="HBoxContainer" parent="VBox"]
+theme_override_constants/separation = 4
+
+[node name="TitleLabel" type="Label" parent="VBox/TitleBar"]
+text = "Hotkeys (F1-F12)"
+size_flags_horizontal = 3
+
+[node name="CloseBtn" type="Button" parent="VBox/TitleBar"]
+custom_minimum_size = Vector2(24, 24)
+text = "X"
+
+[node name="Scroll" type="ScrollContainer" parent="VBox"]
+size_flags_vertical = 3
+custom_minimum_size = Vector2(0, 340)
+
+[node name="HotkeyList" type="VBoxContainer" parent="VBox/Scroll"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 2
+
+[node name="ButtonRow" type="HBoxContainer" parent="VBox"]
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="SaveBtn" type="Button" parent="VBox/ButtonRow"]
+custom_minimum_size = Vector2(60, 0)
+text = "Save"
+
+[node name="CancelBtn" type="Button" parent="VBox/ButtonRow"]
+custom_minimum_size = Vector2(60, 0)
+text = "Cancel"

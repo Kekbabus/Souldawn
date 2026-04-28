@@ -1,0 +1,64 @@
+{
+  "base_sprites": {
+    "east": {
+      "idle": "res://assets/outfits/noble_female/noble_female_east_idle.png",
+      "walk": [
+        "res://assets/outfits/noble_female/noble_female_east_walk1.png",
+        "res://assets/outfits/noble_female/noble_female_east_walk2.png"
+      ]
+    },
+    "north": {
+      "idle": "res://assets/outfits/noble_female/noble_female_north_idle.png",
+      "walk": [
+        "res://assets/outfits/noble_female/noble_female_north_walk1.png",
+        "res://assets/outfits/noble_female/noble_female_north_walk2.png"
+      ]
+    },
+    "south": {
+      "idle": "res://assets/outfits/noble_female/noble_female_south_idle.png",
+      "walk": [
+        "res://assets/outfits/noble_female/noble_female_south_walk1.png",
+        "res://assets/outfits/noble_female/noble_female_south_walk2.png"
+      ]
+    },
+    "west": {
+      "idle": "res://assets/outfits/noble_female/noble_female_west_idle.png",
+      "walk": [
+        "res://assets/outfits/noble_female/noble_female_west_walk1.png",
+        "res://assets/outfits/noble_female/noble_female_west_walk2.png"
+      ]
+    }
+  },
+  "color_sprites": {
+    "east": {
+      "idle": "res://assets/outfits/noble_female/color/noble_female_east_idle_color.png",
+      "walk": [
+        "res://assets/outfits/noble_female/color/noble_female_east_walk1_color.png",
+        "res://assets/outfits/noble_female/color/noble_female_east_walk2_color.png"
+      ]
+    },
+    "north": {
+      "idle": "res://assets/outfits/noble_female/color/noble_female_north_idle_color.png",
+      "walk": [
+        "res://assets/outfits/noble_female/color/noble_female_north_walk1_color.png",
+        "res://assets/outfits/noble_female/color/noble_female_north_walk2_color.png"
+      ]
+    },
+    "south": {
+      "idle": "res://assets/outfits/noble_female/color/noble_female_south_idle_color.png",
+      "walk": [
+        "res://assets/outfits/noble_female/color/noble_female_south_walk1_color.png",
+        "res://assets/outfits/noble_female/color/noble_female_south_walk2_color.png"
+      ]
+    },
+    "west": {
+      "idle": "res://assets/outfits/noble_female/color/noble_female_west_idle_color.png",
+      "walk": [
+        "res://assets/outfits/noble_female/color/noble_female_west_walk1_color.png",
+        "res://assets/outfits/noble_female/color/noble_female_west_walk2_color.png"
+      ]
+    }
+  },
+  "display_name": "Noble Female",
+  "outfit_id": "noble_female"
+}

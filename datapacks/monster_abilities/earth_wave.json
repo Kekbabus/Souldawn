@@ -1,0 +1,7 @@
+{
+  "ability_id": "earth_wave",
+  "ability_type": "earth",
+  "area_effect": "poison_effect",
+  "area_pattern": "AREA_WAVE4",
+  "target": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Fireball Rune",
+  "words": "adori flam",
+  "mana_cost": 460,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "fireball_rune",
+  "conjure_count": 10,
+  "reagent_id": "blankrune",
+  "vocations": ["sorcerer"],
+  "min_level": 4
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Exura",
+  "words": "exura",
+  "mana_cost": 20,
+  "cooldown": 1.0,
+  "type": "heal",
+  "heal_min": 20,
+  "heal_max": 40,
+  "vocations": [
+    "knight",
+    "paladin",
+    "sorcerer",
+    "druid",
+    "none"
+  ],
+  "min_level": 1,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.4,
+  "formula_ml_max": 2.8,
+  "formula_base_min": 8,
+  "formula_base_max": 14,
+  "caster_effect": "blueshimmer"
+}

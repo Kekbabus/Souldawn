@@ -1,0 +1,108 @@
+{
+	"_comment": "Interaction spot actions. action_id range: 1200–1299. Rope spots, shovel dig holes, and town spawn tiles.",
+
+	"_rope_spots": "Use rope on these tiles to pull entities from the floor below",
+	"1200": {
+		"type": "rope_spot",
+		"exit_dx": 0,
+		"exit_dy": 1,
+		"conditions": [
+			{ "type": "has_item", "item": "rope" }
+		]
+	},
+	"1201": {
+		"type": "rope_spot",
+		"exit_dx": 1,
+		"exit_dy": 0,
+		"conditions": [
+			{ "type": "has_item", "item": "rope" }
+		]
+	},
+	"1202": {
+		"type": "rope_spot",
+		"conditions": [
+			{ "type": "has_item", "item": "rope" }
+		]
+	},
+
+	"_shovel_dig": "Use shovel on these tiles to reveal a hole underneath",
+	"1220": {
+		"type": "shovel_dig",
+		"target_action_id": 1221,
+		"revert_seconds": 60,
+		"message": "You dig open the hole."
+	},
+	"1221": {
+		"_comment": "Open hole state — step-on teleport down. This is the target of 1220.",
+		"type": "teleport",
+		"dx": 0,
+		"dy": 0,
+		"dz": -1,
+		"message": "You fall into the hole."
+	},
+	"1222": {
+		"type": "shovel_dig",
+		"target_action_id": 1223,
+		"revert_seconds": 120,
+		"message": "You uncover a hidden passage."
+	},
+	"1223": {
+		"_comment": "Open passage state — step-on teleport down. Target of 1222.",
+		"type": "teleport",
+		"dx": 1,
+		"dy": 0,
+		"dz": -1,
+		"message": "You descend into the passage."
+	},
+
+	"_town_spawns": "Step on these tiles to set your respawn point",
+	"1250": {
+		"type": "town_spawn",
+		"town": "Vastarya",
+		"x": 0,
+		"y": 0,
+		"z": 7
+	},
+	"1251": {
+		"type": "town_spawn",
+		"town": "Thais",
+		"x": 100,
+		"y": 100,
+		"z": 7
+	},
+	"1252": {
+		"type": "town_spawn",
+		"town": "Carlin",
+		"x": 200,
+		"y": 100,
+		"z": 7
+	},
+	"1253": {
+		"type": "town_spawn",
+		"town": "Venore",
+		"x": 300,
+		"y": 100,
+		"z": 7
+	},
+	"1254": {
+		"type": "town_spawn",
+		"town": "Ab'Dendriel",
+		"x": 400,
+		"y": 100,
+		"z": 7
+	},
+	"1255": {
+		"type": "town_spawn",
+		"town": "Kazordoon",
+		"x": 500,
+		"y": 100,
+		"z": 7
+	},
+	"1256": {
+		"type": "town_spawn",
+		"town": "Edron",
+		"x": 600,
+		"y": 100,
+		"z": 7
+	}
+}

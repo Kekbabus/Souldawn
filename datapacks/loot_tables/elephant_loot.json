@@ -1,0 +1,17 @@
+{
+  "table_id": "elephant_loot",
+  "entries": [
+    {
+      "item_definition_id": "meat",
+      "chance": 39.0,
+      "min_quantity": 1,
+      "max_quantity": 4
+    },
+    {
+      "item_definition_id": "ham",
+      "chance": 30.0,
+      "min_quantity": 1,
+      "max_quantity": 3
+    }
+  ]
+}

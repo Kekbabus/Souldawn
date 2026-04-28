@@ -1,0 +1,17 @@
+{
+  "table_id": "ancient_scarab_loot",
+  "entries": [
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 50.0,
+      "min_quantity": 1,
+      "max_quantity": 90
+    },
+    {
+      "item_definition_id": "gold_coin",
+      "chance": 50.0,
+      "min_quantity": 1,
+      "max_quantity": 97
+    }
+  ]
+}

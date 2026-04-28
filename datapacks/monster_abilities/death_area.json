@@ -1,0 +1,8 @@
+{
+  "ability_id": "death_area",
+  "ability_type": "death",
+  "area_effect": "death_effect",
+  "area_pattern": "AREA_CIRCLE2X2",
+  "target": true,
+  "projectile": "death"
+}

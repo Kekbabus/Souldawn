@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  10,
+    "base_health":  80.0,
+    "defense":  10,
+    "definition_id":  "lion",
+    "detection_range":  8,
+    "display_name":  "Lion",
+    "experience_reward":  30.0,
+    "loot_table":  "lion_loot",
+    "run_on_health":  10,
+    "speed":  190.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/lion/lion_east_idle.png",
+                                 "north":  "res://assets/creatures/lion/lion_north_idle.png",
+                                 "south":  "res://assets/creatures/lion/lion_south_idle.png",
+                                 "west":  "res://assets/creatures/lion/lion_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/lion/lion_east_walk1.png",
+                                              "res://assets/creatures/lion/lion_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/lion/lion_north_walk1.png",
+                                               "res://assets/creatures/lion/lion_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/lion/lion_south_walk1.png",
+                                               "res://assets/creatures/lion/lion_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/lion/lion_west_walk1.png",
+                                              "res://assets/creatures/lion/lion_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  30,
+    "melee_attack":  20,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/lion/lion_corpse_fresh.png",
+                           "res://Assets/creatures/lion/lion_corpse_decayed.png",
+                           "res://Assets/creatures/lion/lion_corpse_skeleton.png"
+                       ]
+}

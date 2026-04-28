@@ -1,0 +1,15 @@
+{
+  "name": "Create Food",
+  "words": "exevo pan",
+  "mana_cost": 120,
+  "cooldown": 2.0,
+  "type": "create_food",
+  "conjure_count": 3,
+  "vocations": [
+    "knight",
+    "paladin",
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 14
+}

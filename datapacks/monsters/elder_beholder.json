@@ -1,0 +1,114 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "energy_ranged",
+                          "min_damage":  45,
+                          "max_damage":  60,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "fire_ranged",
+                          "min_damage":  40,
+                          "max_damage":  80,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  45,
+                          "max_damage":  90,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "poison_ranged",
+                          "min_damage":  20,
+                          "max_damage":  40,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "lifedrain_ranged",
+                          "min_damage":  45,
+                          "max_damage":  85,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "manadrain_ranged",
+                          "min_damage":  0,
+                          "max_damage":  40,
+                          "chance_percent":  5,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "ranged",
+    "armor":  15,
+    "base_health":  500.0,
+    "defense":  15,
+    "definition_id":  "elder_beholder",
+    "detection_range":  8,
+    "display_name":  "Elder Beholder",
+    "experience_reward":  280.0,
+    "immunities":  {
+                       "earth":  true,
+                       "lifedrain":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "elder_beholder_loot",
+    "speed":  180.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/elder_beholder/elder_beholder_east_idle.png",
+                                 "north":  "res://assets/creatures/elder_beholder/elder_beholder_north_idle.png",
+                                 "south":  "res://assets/creatures/elder_beholder/elder_beholder_south_idle.png",
+                                 "west":  "res://assets/creatures/elder_beholder/elder_beholder_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/elder_beholder/elder_beholder_east_walk1.png",
+                                              "res://assets/creatures/elder_beholder/elder_beholder_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/elder_beholder/elder_beholder_north_walk1.png",
+                                               "res://assets/creatures/elder_beholder/elder_beholder_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/elder_beholder/elder_beholder_south_walk1.png",
+                                               "res://assets/creatures/elder_beholder/elder_beholder_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/elder_beholder/elder_beholder_west_walk1.png",
+                                              "res://assets/creatures/elder_beholder/elder_beholder_west_walk2.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "Gazer",
+                        "interval_ms":  2000,
+                        "chance":  10
+                    },
+                    {
+                        "name":  "Crypt Shambler",
+                        "interval_ms":  2000,
+                        "chance":  15
+                    }
+                ],
+    "creature_type":  "undead",
+    "melee_skill":  10,
+    "melee_attack":  55,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/elder_beholder/elder_beholder_corpse_fresh.png",
+                           "res://Assets/creatures/elder_beholder/elder_beholder_corpse_decayed.png",
+                           "res://Assets/creatures/elder_beholder/elder_beholder_corpse_skeleton.png"
+                       ]
+}

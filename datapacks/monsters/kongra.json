@@ -1,0 +1,51 @@
+﻿{
+    "abilities":  [
+
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  20,
+    "base_health":  340.0,
+    "defense":  20,
+    "definition_id":  "kongra",
+    "detection_range":  8,
+    "display_name":  "Kongra",
+    "experience_reward":  115.0,
+    "loot_table":  "kongra_loot",
+    "run_on_health":  10,
+    "speed":  210.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/kongra/kongra_east_idle.png",
+                                 "north":  "res://assets/creatures/kongra/kongra_north_idle.png",
+                                 "south":  "res://assets/creatures/kongra/kongra_south_idle.png",
+                                 "west":  "res://assets/creatures/kongra/kongra_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/kongra/kongra_east_walk1.png",
+                                              "res://assets/creatures/kongra/kongra_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/kongra/kongra_north_walk1.png",
+                                               "res://assets/creatures/kongra/kongra_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/kongra/kongra_south_walk1.png",
+                                               "res://assets/creatures/kongra/kongra_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/kongra/kongra_west_walk1.png",
+                                              "res://assets/creatures/kongra/kongra_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  30,
+    "melee_attack":  24,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/kongra/kongra_corpse_fresh.png",
+                           "res://Assets/creatures/kongra/kongra_corpse_decayed.png",
+                           "res://Assets/creatures/kongra/kongra_corpse_skeleton.png"
+                       ]
+}

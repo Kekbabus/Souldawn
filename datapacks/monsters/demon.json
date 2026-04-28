@@ -1,0 +1,95 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "fire_area",
+                          "min_damage":  150,
+                          "max_damage":  250,
+                          "chance_percent":  20,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      },
+                      {
+                          "id":  "lifedrain_wave",
+                          "min_damage":  300,
+                          "max_damage":  490,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0
+                      },
+                      {
+                          "id":  "energy_strike",
+                          "min_damage":  210,
+                          "max_damage":  300,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0,
+                          "range":  1
+                      }
+                  ],
+    "ai_behavior":  "melee",
+    "armor":  55,
+    "base_health":  8200,
+    "defense":  55,
+    "definition_id":  "demon",
+    "detection_range":  8,
+    "display_name":  "Demon",
+    "experience_reward":  6000,
+    "immunities":  {
+                       "earth":  true,
+                       "energy":  true,
+                       "fire":  true,
+                       "drown":  true,
+                       "lifedrain":  true,
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "demon_loot",
+    "self_healing":  {
+                         "min":  180,
+                         "max":  250,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  280,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/demon/demon_east_idle.png",
+                                 "north":  "res://assets/creatures/demon/demon_north_idle.png",
+                                 "south":  "res://assets/creatures/demon/demon_south_idle.png",
+                                 "west":  "res://assets/creatures/demon/demon_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/demon/demon_east_walk1.png",
+                                              "res://assets/creatures/demon/demon_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/demon/demon_north_walk1.png",
+                                               "res://assets/creatures/demon/demon_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/demon/demon_south_walk1.png",
+                                               "res://assets/creatures/demon/demon_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/demon/demon_west_walk1.png",
+                                              "res://assets/creatures/demon/demon_west_walk2.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "fire elemental",
+                        "interval_ms":  2000,
+                        "chance":  10
+                    }
+                ],
+    "creature_type":  "fire",
+    "melee_skill":  70,
+    "melee_attack":  130,
+    "melee_interval":  2000,
+    "run_on_health":  0,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/demon/demon_corpse_fresh.png",
+                           "res://Assets/creatures/demon/demon_corpse_decayed.png",
+                           "res://Assets/creatures/demon/demon_corpse_skeleton.png"
+                       ]
+}

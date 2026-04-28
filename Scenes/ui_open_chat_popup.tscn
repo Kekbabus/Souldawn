@@ -1,0 +1,51 @@
+[gd_scene format=3]
+
+[node name="OpenChatPopup" type="PanelContainer"]
+custom_minimum_size = Vector2(200, 0)
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Title" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Open Chat Channel"
+horizontal_alignment = 1
+
+[node name="GlobalBtn" type="Button" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 2
+text = "Global Chat"
+
+[node name="TradeBtn" type="Button" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 2
+text = "Trade Chat"
+
+[node name="PMLabel" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Private Message:"
+
+[node name="PMRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="PMInput" type="LineEdit" parent="VBox/PMRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Player name"
+
+[node name="PMOpenBtn" type="Button" parent="VBox/PMRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Open"
+
+[node name="CloseBtn" type="Button" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Close"

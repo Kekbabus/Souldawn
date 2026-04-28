@@ -1,0 +1,19 @@
+{
+  "name": "Exura Ico",
+  "words": "exura ico",
+  "mana_cost": 40,
+  "cooldown": 1.0,
+  "type": "heal",
+  "heal_min": 40,
+  "heal_max": 80,
+  "vocations": [
+    "knight"
+  ],
+  "min_level": 11,
+  "formula_lvl": 0.2,
+  "formula_ml_min": 1.0,
+  "formula_ml_max": 1.5,
+  "formula_base_min": 8,
+  "formula_base_max": 12,
+  "caster_effect": "blueshimmer"
+}

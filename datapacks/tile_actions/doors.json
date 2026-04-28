@@ -1,0 +1,50 @@
+{
+	"_comment": "Door toggle actions. action_id range: 1100–1199. Doors come in pairs — each state references the other via target_action_id.",
+
+	"_north_door": "North-facing door pair (open/closed)",
+	"1002": {
+		"type": "door_toggle",
+		"target_action_id": 1003
+	},
+	"1003": {
+		"type": "door_toggle",
+		"target_action_id": 1002,
+		"push_dir": "south"
+	},
+
+	"_west_door": "West-facing door pair (open/closed)",
+	"1000": {
+		"type": "door_toggle",
+		"target_action_id": 1001
+	},
+	"1001": {
+		"type": "door_toggle",
+		"target_action_id": 1000,
+		"push_dir": "east"
+	},
+
+	"_quest_door": "Quest door — requires level 50 to open",
+	"1120": {
+		"type": "door_toggle",
+		"target_action_id": 1121,
+		"conditions": [
+			{ "type": "min_level", "level": 50 }
+		]
+	},
+	"1121": {
+		"type": "door_toggle",
+		"target_action_id": 1120,
+		"push_dir": "east"
+	},
+
+	"_gate_lever": "Gate transform — use lever to open/close a gate",
+	"1140": {
+		"type": "transform",
+		"target_action_id": 1141
+	},
+	"1141": {
+		"type": "transform",
+		"target_action_id": 1140,
+		"push_dir": "north"
+	}
+}

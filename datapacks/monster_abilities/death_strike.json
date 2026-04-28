@@ -1,0 +1,7 @@
+{
+  "ability_id": "death_strike",
+  "ability_type": "death",
+  "area_effect": "death_effect",
+  "area_pattern": "AREA_BEAM1",
+  "target": false
+}

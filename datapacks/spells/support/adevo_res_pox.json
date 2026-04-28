@@ -1,0 +1,15 @@
+{
+  "name": "Envenom",
+  "words": "adevo res pox",
+  "mana_cost": 400,
+  "cooldown": 2.0,
+  "type": "conjure",
+  "conjure_id": "envenom_rune",
+  "conjure_count": 2,
+  "reagent_id": "blankrune",
+  "vocations": [
+    "sorcerer",
+    "druid"
+  ],
+  "min_level": 21
+}

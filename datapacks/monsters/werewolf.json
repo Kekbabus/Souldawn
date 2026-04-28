@@ -1,0 +1,74 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "lifedrain_area",
+                          "min_damage":  80,
+                          "max_damage":  165,
+                          "chance_percent":  10,
+                          "cooldown_seconds":  2.0
+                      }
+                  ],
+    "ai_behavior":  "flee",
+    "armor":  40,
+    "base_health":  1955.0,
+    "defense":  40,
+    "definition_id":  "werewolf",
+    "detection_range":  8,
+    "display_name":  "Werewolf",
+    "experience_reward":  1900.0,
+    "immunities":  {
+                       "paralyze":  true,
+                       "invisible":  true
+                   },
+    "loot_table":  "werewolf_loot",
+    "run_on_health":  300,
+    "self_healing":  {
+                         "min":  10,
+                         "max":  125,
+                         "cooldown_seconds":  2.0,
+                         "chance_percent":  15
+                     },
+    "speed":  200.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/werewolf/werewolf_east_idle.png",
+                                 "north":  "res://assets/creatures/werewolf/werewolf_north_idle.png",
+                                 "south":  "res://assets/creatures/werewolf/werewolf_south_idle.png",
+                                 "west":  "res://assets/creatures/werewolf/werewolf_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/werewolf/werewolf_east_walk1.png",
+                                              "res://assets/creatures/werewolf/werewolf_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/werewolf/werewolf_north_walk1.png",
+                                               "res://assets/creatures/werewolf/werewolf_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/werewolf/werewolf_south_walk1.png",
+                                               "res://assets/creatures/werewolf/werewolf_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/werewolf/werewolf_west_walk1.png",
+                                              "res://assets/creatures/werewolf/werewolf_west_walk2.png"
+                                          ]
+                             }
+                },
+    "summons":  [
+                    {
+                        "name":  "War Wolf",
+                        "interval_ms":  2000,
+                        "chance":  100
+                    }
+                ],
+    "creature_type":  "blood",
+    "melee_skill":  175,
+    "melee_attack":  120,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/werewolf/werewolf_corpse_fresh.png",
+                           "res://Assets/creatures/werewolf/werewolf_corpse_decayed.png",
+                           "res://Assets/creatures/werewolf/werewolf_corpse_skeleton.png"
+                       ]
+}

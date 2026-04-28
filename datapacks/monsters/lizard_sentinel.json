@@ -1,0 +1,62 @@
+﻿{
+    "abilities":  [
+                      {
+                          "id":  "physical_ranged",
+                          "min_damage":  0,
+                          "max_damage":  70,
+                          "chance_percent":  30,
+                          "cooldown_seconds":  2.0,
+                          "range":  7
+                      }
+                  ],
+    "ai_behavior":  "ranged",
+    "armor":  15,
+    "base_health":  265.0,
+    "defense":  15,
+    "definition_id":  "lizard_sentinel",
+    "detection_range":  8,
+    "display_name":  "Lizard Sentinel",
+    "experience_reward":  110.0,
+    "immunities":  {
+                       "invisible":  true,
+                       "earth":  true
+                   },
+    "loot_table":  "lizard_sentinel_loot",
+    "run_on_health":  10,
+    "speed":  180.0,
+    "sprites":  {
+                    "idle":  {
+                                 "east":  "res://assets/creatures/lizard_sentinel/lizard_sentinel_east_idle.png",
+                                 "north":  "res://assets/creatures/lizard_sentinel/lizard_sentinel_north_idle.png",
+                                 "south":  "res://assets/creatures/lizard_sentinel/lizard_sentinel_south_idle.png",
+                                 "west":  "res://assets/creatures/lizard_sentinel/lizard_sentinel_west_idle.png"
+                             },
+                    "walk":  {
+                                 "east":  [
+                                              "res://assets/creatures/lizard_sentinel/lizard_sentinel_east_walk1.png",
+                                              "res://assets/creatures/lizard_sentinel/lizard_sentinel_east_walk2.png"
+                                          ],
+                                 "north":  [
+                                               "res://assets/creatures/lizard_sentinel/lizard_sentinel_north_walk1.png",
+                                               "res://assets/creatures/lizard_sentinel/lizard_sentinel_north_walk2.png"
+                                           ],
+                                 "south":  [
+                                               "res://assets/creatures/lizard_sentinel/lizard_sentinel_south_walk1.png",
+                                               "res://assets/creatures/lizard_sentinel/lizard_sentinel_south_walk2.png"
+                                           ],
+                                 "west":  [
+                                              "res://assets/creatures/lizard_sentinel/lizard_sentinel_west_walk1.png",
+                                              "res://assets/creatures/lizard_sentinel/lizard_sentinel_west_walk2.png"
+                                          ]
+                             }
+                },
+    "creature_type":  "blood",
+    "melee_skill":  20,
+    "melee_attack":  30,
+    "melee_interval":  2000,
+    "corpse_sprites":  [
+                           "res://Assets/creatures/lizard_sentinel/lizard_sentinel_corpse_fresh.png",
+                           "res://Assets/creatures/lizard_sentinel/lizard_sentinel_corpse_decayed.png",
+                           "res://Assets/creatures/lizard_sentinel/lizard_sentinel_corpse_skeleton.png"
+                       ]
+}

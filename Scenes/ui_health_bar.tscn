@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://v2_health_bar"]
+
+[node name="HealthBar" type="HBoxContainer"]
+offset_right = 200.0
+offset_bottom = 20.0
+
+[node name="BarLabel" type="Label" parent="."]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "health"
+horizontal_alignment = 2
+
+[node name="BarBG" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(140, 16)
+layout_mode = 2
+color = Color(0.15, 0.15, 0.15, 1)
+
+[node name="Fill" type="ColorRect" parent="BarBG"]
+layout_mode = 0
+offset_right = 140.0
+offset_bottom = 16.0
+color = Color(0, 0.8, 0, 1)
+
+[node name="ValueLabel" type="Label" parent="BarBG"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 1
+text = "150/150"
+horizontal_alignment = 1
+vertical_alignment = 1

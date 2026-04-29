@@ -507,13 +507,9 @@ func update_z_visibility(current_z: int) -> void:
 	for eid in _entities:
 		var data: Dictionary = _entities[eid]
 		var same_floor: bool = (int(data.get("z_level", 7)) == current_z)
-		# Sprites always visible (can see creatures on other floors)
-		data["node"].visible = true
-		# But dim entities on different floors
+		data["node"].visible = same_floor
 		if same_floor:
 			data["node"].modulate = Color.WHITE
-		else:
-			data["node"].modulate = Color(0.6, 0.6, 0.6, 1.0)
 		# Hide/show overlay (name + health bar) based on floor
 		var overlay_key := "entity_%d" % eid
 		if client.ui._entity_overlays.has(overlay_key):
@@ -521,11 +517,9 @@ func update_z_visibility(current_z: int) -> void:
 	for nid in _npcs:
 		var npc: Dictionary = _npcs[nid]
 		var same_floor: bool = (int(npc.get("z_level", 7)) == current_z)
-		npc["node"].visible = true
+		npc["node"].visible = same_floor
 		if same_floor:
 			npc["node"].modulate = Color.WHITE
-		else:
-			npc["node"].modulate = Color(0.6, 0.6, 0.6, 1.0)
 		var overlay_key := "npc_%d" % nid
 		if client.ui._entity_overlays.has(overlay_key):
 			client.ui._entity_overlays[overlay_key]["z_hidden"] = not same_floor

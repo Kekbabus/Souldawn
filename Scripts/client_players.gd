@@ -366,12 +366,9 @@ func update_z_visibility(current_z: int, local_eid: int) -> void:
 			continue  # Always show local player
 		var data: Dictionary = _players[eid]
 		var same_floor: bool = (int(data.get("z_level", 7)) == current_z)
-		# Sprites always visible (can see players on other floors)
-		data["node"].visible = true
+		data["node"].visible = same_floor
 		if same_floor:
 			data["node"].modulate = Color.WHITE
-		else:
-			data["node"].modulate = Color(0.6, 0.6, 0.6, 1.0)
 		# Hide/show overlay (name + health bar) based on floor
 		var overlay_key := "player_%d" % eid
 		if client.ui._entity_overlays.has(overlay_key):

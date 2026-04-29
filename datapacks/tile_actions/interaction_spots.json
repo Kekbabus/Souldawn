@@ -63,46 +63,6 @@
 		"y": 0,
 		"z": 7
 	},
-	"1251": {
-		"type": "town_spawn",
-		"town": "Thais",
-		"x": 100,
-		"y": 100,
-		"z": 7
-	},
-	"1252": {
-		"type": "town_spawn",
-		"town": "Carlin",
-		"x": 200,
-		"y": 100,
-		"z": 7
-	},
-	"1253": {
-		"type": "town_spawn",
-		"town": "Venore",
-		"x": 300,
-		"y": 100,
-		"z": 7
-	},
-	"1254": {
-		"type": "town_spawn",
-		"town": "Ab'Dendriel",
-		"x": 400,
-		"y": 100,
-		"z": 7
-	},
-	"1255": {
-		"type": "town_spawn",
-		"town": "Kazordoon",
-		"x": 500,
-		"y": 100,
-		"z": 7
-	},
-	"1256": {
-		"type": "town_spawn",
-		"town": "Edron",
-		"x": 600,
-		"y": 100,
-		"z": 7
-	}
+
+	
 }

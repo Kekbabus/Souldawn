@@ -4,8 +4,8 @@
 	"_stairs_up": "Stairs going UP — one action per exit direction",
 	"10001": {
 		"type": "teleport",
-		"dx": 1,
-		"dy": -1,
+		"dx": -1,
+		"dy": -2,
 		"dz": 1,
 		"message": "You go up."
 	},
@@ -25,8 +25,8 @@
 	},
 	"10004": {
 		"type": "teleport",
-		"dx": -1,
-		"dy": -1,
+		"dx": 2,
+		"dy": 1,
 		"dz": 1,
 		"message": "You go up."
 	},
@@ -34,15 +34,15 @@
 	"_stairs_down": "Stairs going DOWN — one action per exit direction",
 	"801": {
 		"type": "teleport",
-		"dx": 1,
-		"dy": 1,
+		"dx": 0,
+		"dy": -1,
 		"dz": -1,
 		"message": "You go down."
 	},
 	"802": {
 		"type": "teleport",
-		"dx": -1,
-		"dy": -1,
+		"dx": 1,
+		"dy": 2,
 		"dz": -1,
 		"message": "You go down."
 	},
@@ -56,7 +56,7 @@
 	"804": {
 		"type": "teleport",
 		"dx": -1,
-		"dy": 0,
+		"dy": -2,
 		"dz": -1,
 		"message": "You go down."
 	},
@@ -103,25 +103,4 @@
 		"message": "You climb up."
 	},
 
-	"_magic_teleport": "Magic portal — requires level 20 to use",
-	"1070": {
-		"type": "teleport",
-		"dx": 0,
-		"dy": 0,
-		"dz": 3,
-		"message": "The portal whisks you away!",
-		"conditions": [
-			{ "type": "min_level", "level": 20 }
-		]
-	},
-
-	"_item_teleport": "Use a magic key on this tile to teleport",
-	"1080": {
-		"type": "item_use_teleport",
-		"item": "magic_key",
-		"dx": 5,
-		"dy": 0,
-		"dz": 0,
-		"message": "The door shimmers and you pass through."
-	}
 }
